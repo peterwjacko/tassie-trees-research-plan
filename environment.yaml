@@ -1,0 +1,17 @@
+name: tassie-trees-env
+channels:
+  - conda-forge
+dependencies:
+  - geopandas
+  - rasterio
+  - statsmodels
+  - seaborn
+  - jupyter
+  - marimo
+  - mystmd
+  - texlive-core
+  - latexmk
+  - pandoc
+  - pip
+  - pip:
+      - jupyterlab_myst
