@@ -1,4 +1,4 @@
-name: tassie-trees-env
+name: ttrp-env
 channels:
   - conda-forge
 dependencies:
@@ -8,10 +8,3 @@ dependencies:
   - seaborn
   - jupyter
   - marimo
-  - mystmd
-  - texlive-core
-  - latexmk
-  - pandoc
-  - pip
-  - pip:
-      - jupyterlab_myst
