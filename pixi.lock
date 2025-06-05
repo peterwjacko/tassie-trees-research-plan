@@ -3243,7 +3243,7 @@ packages:
 - pypi: .
   name: tassie-trees-research-plan
   version: 0.1.0
-  sha256: 6b4fff7b1716af005492f64b1854ffd903fa36e4ec259e5c941ac4c5b553d16c
+  sha256: 01117d7aea79c04089943c24acf3068f3a5b6a5fb33d92ed94fd840963e28e2f
   requires_python: '>=3.11'
   editable: true
 - conda: https://conda.anaconda.org/conda-forge/noarch/terminado-0.18.1-pyh31c8845_0.conda
