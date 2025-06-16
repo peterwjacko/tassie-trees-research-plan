@@ -8,3 +8,10 @@ dependencies:
   - seaborn
   - jupyter
   - marimo
+  - mystmd
+  - pystac
+  - pystac-client
+  - boto3
+  - pip
+  - pip:
+      - jupyterlab_myst
