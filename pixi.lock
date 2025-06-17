@@ -3368,7 +3368,7 @@ packages:
 - pypi: .
   name: tassie-trees-research-plan
   version: 0.1.0
-  sha256: dcc8f99533637229bab5a95d5bb76958d382b97fd06bb74406d78ba9f9669f1a
+  sha256: f07f33689c6ffebc12cbd9ca6cef1043fa6d395388110b4d73847cc8e228035d
   requires_dist:
   - geopandas>=1.0.1
   - rasterio>=1.4.3
