@@ -16,5 +16,3 @@ Data acquisition was completed for these three southern Tarkine sites as of Apri
 :::{figure} #ala-records-interactive
 :label: fig-ala-records-interactive
 :::
-
-![](#tbl:occurences-table-head)
