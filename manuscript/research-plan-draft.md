@@ -59,6 +59,8 @@ Current multi-modal integration approaches employ simple data stacking rather th
 
 This research addresses these gaps by developing hyperspectral deep learning approaches for endemic species mapping, investigating knowledge transfer techniques for operational scalability, and demonstrating integration with conservation planning frameworks. The focus on Tasmania's endemic species provides a critical test case for global paleoendemism conservation while advancing methodological approaches applicable worldwide.
 
+### Aim and objectives
+
 The overarching aim of this project is to develop advanced approaches to automated vegetation mapping by combining remote sensing and deep learning technologies. This research will investigate the accuracy, applicability, accessibility, and scalability of these technologies using Tasmania’s vulnerable vegetation communities as a case study.
 
 To achieve this aim, we will focus on the following objectives:
@@ -68,7 +70,7 @@ To achieve this aim, we will focus on the following objectives:
 3. Objective 3: on DNNs using ecological context and how they exploit ecological patterns
 4. Objective 4: on using RS-derived tree inventories to inform better conservation outcomes
 
-## Study area
+### Study area
 
 The proposed study areas ([](#proposed-study-sites)) are concentrated along the west and southwest coasts of Tasmania, encompassing known habitats of the target endemic species. Study site selection was guided by occurrence records from the Atlas of Living Australia [@AtlasLivingAustralia2025], vegetation mapping data from TASVEG 4.0 [@departmentofnaturalresourcesandenvironmenttasmaniaTASVEG402020], and consultation with local botanical experts. Several sites contain documented populations of target species but lack detailed, contemporary mapping products.
 
