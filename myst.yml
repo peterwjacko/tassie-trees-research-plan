@@ -1,14 +1,46 @@
 # See docs at: https://mystmd.org/guide/frontmatter
 version: 1
 project:
+  title: PhD Research Plan
+  #venue: PhD Thesis
+  github: https://github.com/peterwjacko/tassie-trees-research-plan
+  open_access: true
+  license: CC-BY-4.0
+  doi:
+  date:
+  references:
+    python: https://docs.python.org/3.7
+    jupyterbook: https://jupyterbook.org/en/stable/
+    mystpy: https://myst-parser.readthedocs.io/en/latest/
+  bibliography:
+    - zotero-library.bib
+  authors:
+    - name: Peter Jackson
+      orcid: 0009-0005-9630-3501
+      corresponding: true
+      email: p.jackson@utas.edu.au
+      roles: Writing – original draft
+      affiliations:
+        - University of Tasmania
+  numbering:
+    figure: true
+    equation: true
+    code: true
+    table: true
+    heading_1: true
+    heading_2: true
+    heading_3: true
+    heading_4: false
+    heading_5: false
+    heading_6: false
   id: b1e3a6c7-b992-43bc-b5d5-6f437d30af13
-  # title:
   # description:
   # keywords: []
-  # authors: []
-  github: https://github.com/peterwjacko/tassie-trees-research-plan
   # To autogenerate a Table of Contents, run "myst init --write-toc"
 site:
+  title: Peter Jackson - Tassie Trees Research Plan
+  logo_text: PhD Research Proposal
+  twitter: peterwjacko
   template: book-theme
   # options:
   #   favicon: favicon.ico
