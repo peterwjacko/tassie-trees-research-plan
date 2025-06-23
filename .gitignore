@@ -5,3 +5,7 @@
 
 # MyST build outputs
 _build
+
+# filesystem files
+.DS_Store
+Thumbs.db
