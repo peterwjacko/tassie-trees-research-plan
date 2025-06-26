@@ -13,7 +13,7 @@ parts:
       - file: manuscript/220_chapter2_paper1.md
   - caption: Appendices
     chapters:
-      - file: manuscript\911_appendix-1_proposed-timeline.md
+      - file: manuscript/911_appendix-1_proposed-timeline.md
   - caption: Notebooks
     chapters:
       - file: notebooks/ala_occurances.ipynb
