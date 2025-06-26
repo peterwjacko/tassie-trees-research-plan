@@ -2,7 +2,7 @@
 
 Research plan and supporting notebooks.
 
-The research plan is deployed as a Jupyter Book here: peterwjacko.github.io/tassie-trees-research-plan/
+The research plan is deployed as a Jupyter Book here: <https://peterwjacko.github.io/tassie-trees-research-plan/>
 
 ## Installation
 
