@@ -1,4 +1,4 @@
-# Tasmanian Trees Research Plan
+# Tassie Trees Research Plan
 
 Research plan and supporting notebooks.
 
