@@ -1,7 +1,6 @@
 # Proposed timeline
 
 ```mermaid
-
 gantt
     dateFormat  YYYY-MM-DD
     title Proposed timeline
