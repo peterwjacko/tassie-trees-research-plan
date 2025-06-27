@@ -10,7 +10,7 @@ This project uses [`pixi`](https://github.com/prefix-dev/pixi) or [`mamba`](http
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/tassie-trees-research-plan.git
+git clone https://github.com/peterwjacko/tassie-trees-research-plan.git
 cd tassie-trees-research-plan
 
 # Install with pixi
