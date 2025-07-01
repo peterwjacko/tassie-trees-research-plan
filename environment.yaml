@@ -12,6 +12,9 @@ dependencies:
   - pystac
   - pystac-client
   - boto3
+  - adjusttext
+  - plotnine
   - pip
   - pip:
       - jupyterlab_myst
+      - hycharts-gantt
