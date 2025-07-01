@@ -38,8 +38,8 @@ project:
   # keywords: []
   # To autogenerate a Table of Contents, run "myst init --write-toc"
 site:
-  title: Peter Jackson - Tassie Trees Research Plan
-  logo_text: PhD Research Proposal
+  title: Peter Jackson - PhD Research Plan
+  logo_text: PhD Research Plan
   twitter: peterwjacko
   template: book-theme
   # options:
