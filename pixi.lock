@@ -9,6 +9,7 @@ environments:
       linux-64:
       - conda: https://conda.anaconda.org/conda-forge/linux-64/_libgcc_mutex-0.1-conda_forge.tar.bz2
       - conda: https://conda.anaconda.org/conda-forge/linux-64/_openmp_mutex-4.5-2_gnu.tar.bz2
+      - conda: https://conda.anaconda.org/conda-forge/noarch/adjusttext-1.3.0-pyhd8ed1ab_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/affine-2.4.0-pyhd8ed1ab_1.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/anyio-4.9.0-pyh29332c3_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/argon2-cffi-25.1.0-pyhd8ed1ab_0.conda
@@ -157,6 +158,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/noarch/matplotlib-inline-0.1.7-pyhd8ed1ab_1.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/minizip-4.0.10-h05a5f5f_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/mistune-3.1.3-pyh29332c3_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/mizani-0.13.5-pyhd8ed1ab_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/munkres-1.1.4-pyhd8ed1ab_1.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/mystmd-1.4.0-pyhe01879c_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/narwhals-1.44.0-pyhe01879c_0.conda
@@ -184,6 +186,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/linux-64/pillow-11.2.1-py312h80c1187_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/pkgutil-resolve-name-1.3.10-pyhd8ed1ab_2.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/platformdirs-4.3.8-pyhe01879c_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/plotnine-0.14.6-pyhd8ed1ab_0.conda
       - conda: https://conda.anaconda.org/conda-forge/linux-64/proj-9.6.2-h0054346_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/prometheus_client-0.22.1-pyhd8ed1ab_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/prompt-toolkit-3.0.51-pyha770c72_0.conda
@@ -272,8 +275,12 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/linux-64/zstd-1.5.7-hb8e6e7a_2.conda
       - pypi: https://files.pythonhosted.org/packages/83/fb/954032f95ddefd56200be4d26d9dacb553628379fdb042b775bfd00a8a3e/bytesbufio-1.0.3-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/09/fe/f61e7129e9e689d9e40bbf8a36fb90f04eceb477f4617c02c6a18463e81f/configparser-7.2.0-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/cc/a1/50fccd68a12bcfc27adfc9969c090286670a9109a0259f3f70943390b721/esprima-4.0.1.tar.gz
       - pypi: https://files.pythonhosted.org/packages/bf/3e/b0b17d4f6b1507a31b060d7e9b70015ac4e3e480ada8dabbf33d3128d603/galah_python-0.12.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/d7/a5/bbbc3b74a94fbdbd7915e7ad030f16539bfdc1362f7e9003b594f0537950/glob2-0.7.tar.gz
+      - pypi: https://files.pythonhosted.org/packages/32/f1/bb196ad1fa76a9ef10277dcc19aa3ff63a74e1d5fa0cdae2c0081a328f26/highcharts_core-1.10.3-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/95/ad/22fbf6af17b89cbcf21d9a1f98c5510fa89504f253aeeea5201457200cd0/highcharts_gantt-1.7.0-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/0f/a1/0831ee0c7688716a85ffc18cd2f57db74744fc81b227b7790f5a011a57d7/highcharts_stock-1.7.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/2c/e1/e6716421ea10d38022b952c159d5161ca1193197fb744506875fbb87ea7b/iniconfig-2.1.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/ac/7c/98ad14b3cf7a7987d3c6ef5fc83609458739f28a1a34a91a9bb1b12c5f8a/jupyterlab_myst-2.4.2-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/54/20/4d324d65cc6d9205fabedc306948156824eb9f0ee1633355a8f7ec5c66bf/pluggy-1.6.0-py3-none-any.whl
@@ -282,9 +289,11 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/46/1d/8c6017828045c2d510e2d1d480b563936be7755c97cff660afed947928b6/shutils-0.1.0.tar.gz
       - pypi: https://files.pythonhosted.org/packages/d0/30/dc54f88dd4a2b5dc8a0279bdd7270e735851848b762aeb1c1184ed1f6b14/tqdm-4.67.1-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/4e/3d/d44421e8d828af1399c1509c196db92e2a58f3764b01a0ee928d7025d1ca/unittest2py3k-0.5.1.tar.gz
+      - pypi: https://files.pythonhosted.org/packages/4c/cb/051b87d913beb43f7890b16e421965a1550d791637629893a7448bb2b832/validator_collection-1.5.0-py2.py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/d1/cd/ac639dba1ce48dc465e44dcd98a68d1c53743da7687345f2b494d1ac5ae7/zip_files-0.4.1-py3-none-any.whl
       - pypi: .
       osx-arm64:
+      - conda: https://conda.anaconda.org/conda-forge/noarch/adjusttext-1.3.0-pyhd8ed1ab_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/affine-2.4.0-pyhd8ed1ab_1.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/anyio-4.9.0-pyh29332c3_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/appnope-0.1.4-pyhd8ed1ab_1.conda
@@ -426,6 +435,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/noarch/matplotlib-inline-0.1.7-pyhd8ed1ab_1.conda
       - conda: https://conda.anaconda.org/conda-forge/osx-arm64/minizip-4.0.10-hff1a8ea_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/mistune-3.1.3-pyh29332c3_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/mizani-0.13.5-pyhd8ed1ab_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/munkres-1.1.4-pyh9f0ad1d_0.tar.bz2
       - conda: https://conda.anaconda.org/conda-forge/noarch/mystmd-1.4.0-pyhe01879c_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/narwhals-1.41.0-pyhe01879c_0.conda
@@ -453,6 +463,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/osx-arm64/pillow-11.2.1-py313hb37fac4_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/pkgutil-resolve-name-1.3.10-pyhd8ed1ab_2.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/platformdirs-4.3.8-pyhe01879c_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/plotnine-0.14.6-pyhd8ed1ab_0.conda
       - conda: https://conda.anaconda.org/conda-forge/osx-arm64/proj-9.6.0-h1318a7e_1.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/prometheus_client-0.22.0-pyhd8ed1ab_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/prompt-toolkit-3.0.51-pyha770c72_0.conda
@@ -543,8 +554,12 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/osx-arm64/zstd-1.5.7-h6491c7d_2.conda
       - pypi: https://files.pythonhosted.org/packages/83/fb/954032f95ddefd56200be4d26d9dacb553628379fdb042b775bfd00a8a3e/bytesbufio-1.0.3-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/09/fe/f61e7129e9e689d9e40bbf8a36fb90f04eceb477f4617c02c6a18463e81f/configparser-7.2.0-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/cc/a1/50fccd68a12bcfc27adfc9969c090286670a9109a0259f3f70943390b721/esprima-4.0.1.tar.gz
       - pypi: https://files.pythonhosted.org/packages/bf/3e/b0b17d4f6b1507a31b060d7e9b70015ac4e3e480ada8dabbf33d3128d603/galah_python-0.12.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/d7/a5/bbbc3b74a94fbdbd7915e7ad030f16539bfdc1362f7e9003b594f0537950/glob2-0.7.tar.gz
+      - pypi: https://files.pythonhosted.org/packages/32/f1/bb196ad1fa76a9ef10277dcc19aa3ff63a74e1d5fa0cdae2c0081a328f26/highcharts_core-1.10.3-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/95/ad/22fbf6af17b89cbcf21d9a1f98c5510fa89504f253aeeea5201457200cd0/highcharts_gantt-1.7.0-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/0f/a1/0831ee0c7688716a85ffc18cd2f57db74744fc81b227b7790f5a011a57d7/highcharts_stock-1.7.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/2c/e1/e6716421ea10d38022b952c159d5161ca1193197fb744506875fbb87ea7b/iniconfig-2.1.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/ac/7c/98ad14b3cf7a7987d3c6ef5fc83609458739f28a1a34a91a9bb1b12c5f8a/jupyterlab_myst-2.4.2-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/54/20/4d324d65cc6d9205fabedc306948156824eb9f0ee1633355a8f7ec5c66bf/pluggy-1.6.0-py3-none-any.whl
@@ -553,10 +568,12 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/46/1d/8c6017828045c2d510e2d1d480b563936be7755c97cff660afed947928b6/shutils-0.1.0.tar.gz
       - pypi: https://files.pythonhosted.org/packages/d0/30/dc54f88dd4a2b5dc8a0279bdd7270e735851848b762aeb1c1184ed1f6b14/tqdm-4.67.1-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/4e/3d/d44421e8d828af1399c1509c196db92e2a58f3764b01a0ee928d7025d1ca/unittest2py3k-0.5.1.tar.gz
+      - pypi: https://files.pythonhosted.org/packages/4c/cb/051b87d913beb43f7890b16e421965a1550d791637629893a7448bb2b832/validator_collection-1.5.0-py2.py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/d1/cd/ac639dba1ce48dc465e44dcd98a68d1c53743da7687345f2b494d1ac5ae7/zip_files-0.4.1-py3-none-any.whl
       - pypi: .
       win-64:
       - conda: https://conda.anaconda.org/conda-forge/win-64/_openmp_mutex-4.5-2_gnu.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/adjusttext-1.3.0-pyhd8ed1ab_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/affine-2.4.0-pyhd8ed1ab_1.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/anyio-4.9.0-pyh29332c3_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/argon2-cffi-25.1.0-pyhd8ed1ab_0.conda
@@ -692,6 +709,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/noarch/matplotlib-inline-0.1.7-pyhd8ed1ab_1.conda
       - conda: https://conda.anaconda.org/conda-forge/win-64/minizip-4.0.10-h9fa1bad_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/mistune-3.1.3-pyh29332c3_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/mizani-0.13.5-pyhd8ed1ab_0.conda
       - conda: https://conda.anaconda.org/conda-forge/win-64/mkl-2024.2.2-h66d3029_15.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/munkres-1.1.4-pyhd8ed1ab_1.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/mystmd-1.4.0-pyhe01879c_0.conda
@@ -718,6 +736,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/win-64/pillow-11.2.1-py313hda88b71_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/pkgutil-resolve-name-1.3.10-pyhd8ed1ab_2.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/platformdirs-4.3.8-pyhe01879c_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/plotnine-0.14.6-pyhd8ed1ab_0.conda
       - conda: https://conda.anaconda.org/conda-forge/win-64/proj-9.6.2-h4f671f6_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/prometheus_client-0.22.1-pyhd8ed1ab_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/prompt-toolkit-3.0.51-pyha770c72_0.conda
@@ -812,8 +831,12 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/win-64/zstd-1.5.7-hbeecb71_2.conda
       - pypi: https://files.pythonhosted.org/packages/83/fb/954032f95ddefd56200be4d26d9dacb553628379fdb042b775bfd00a8a3e/bytesbufio-1.0.3-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/09/fe/f61e7129e9e689d9e40bbf8a36fb90f04eceb477f4617c02c6a18463e81f/configparser-7.2.0-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/cc/a1/50fccd68a12bcfc27adfc9969c090286670a9109a0259f3f70943390b721/esprima-4.0.1.tar.gz
       - pypi: https://files.pythonhosted.org/packages/bf/3e/b0b17d4f6b1507a31b060d7e9b70015ac4e3e480ada8dabbf33d3128d603/galah_python-0.12.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/d7/a5/bbbc3b74a94fbdbd7915e7ad030f16539bfdc1362f7e9003b594f0537950/glob2-0.7.tar.gz
+      - pypi: https://files.pythonhosted.org/packages/32/f1/bb196ad1fa76a9ef10277dcc19aa3ff63a74e1d5fa0cdae2c0081a328f26/highcharts_core-1.10.3-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/95/ad/22fbf6af17b89cbcf21d9a1f98c5510fa89504f253aeeea5201457200cd0/highcharts_gantt-1.7.0-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/0f/a1/0831ee0c7688716a85ffc18cd2f57db74744fc81b227b7790f5a011a57d7/highcharts_stock-1.7.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/2c/e1/e6716421ea10d38022b952c159d5161ca1193197fb744506875fbb87ea7b/iniconfig-2.1.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/ac/7c/98ad14b3cf7a7987d3c6ef5fc83609458739f28a1a34a91a9bb1b12c5f8a/jupyterlab_myst-2.4.2-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/54/20/4d324d65cc6d9205fabedc306948156824eb9f0ee1633355a8f7ec5c66bf/pluggy-1.6.0-py3-none-any.whl
@@ -822,6 +845,7 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/46/1d/8c6017828045c2d510e2d1d480b563936be7755c97cff660afed947928b6/shutils-0.1.0.tar.gz
       - pypi: https://files.pythonhosted.org/packages/d0/30/dc54f88dd4a2b5dc8a0279bdd7270e735851848b762aeb1c1184ed1f6b14/tqdm-4.67.1-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/4e/3d/d44421e8d828af1399c1509c196db92e2a58f3764b01a0ee928d7025d1ca/unittest2py3k-0.5.1.tar.gz
+      - pypi: https://files.pythonhosted.org/packages/4c/cb/051b87d913beb43f7890b16e421965a1550d791637629893a7448bb2b832/validator_collection-1.5.0-py2.py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/d1/cd/ac639dba1ce48dc465e44dcd98a68d1c53743da7687345f2b494d1ac5ae7/zip_files-0.4.1-py3-none-any.whl
       - pypi: .
 packages:
@@ -861,6 +885,20 @@ packages:
   purls: []
   size: 49468
   timestamp: 1718213032772
+- conda: https://conda.anaconda.org/conda-forge/noarch/adjusttext-1.3.0-pyhd8ed1ab_0.conda
+  sha256: 1fce2ff1859d1494c053387b241b44a12cd6ac97c0e27cd0edba70bce268c97f
+  md5: 57a40ccb7b409dfae9d340629b71d73e
+  depends:
+  - matplotlib-base
+  - numpy
+  - python >=3.6
+  - scipy
+  license: MIT
+  license_family: MIT
+  purls:
+  - pkg:pypi/adjusttext?source=hash-mapping
+  size: 18280
+  timestamp: 1730725098822
 - conda: https://conda.anaconda.org/conda-forge/noarch/affine-2.4.0-pyhd8ed1ab_1.conda
   sha256: 0deeaf0c001d5543719db9b2686bc1920c86c7e142f9bec74f35e1ce611b1fc2
   md5: 8c4061f499edec6b8ac7000f6d586829
@@ -1749,6 +1787,10 @@ packages:
   - pkg:pypi/docutils?source=hash-mapping
   size: 402700
   timestamp: 1733217860944
+- pypi: https://files.pythonhosted.org/packages/cc/a1/50fccd68a12bcfc27adfc9969c090286670a9109a0259f3f70943390b721/esprima-4.0.1.tar.gz
+  name: esprima
+  version: 4.0.1
+  sha256: 08db1a876d3c2910db9cfaeb83108193af5411fc3a3a66ebefacd390d21323ee
 - conda: https://conda.anaconda.org/conda-forge/noarch/exceptiongroup-1.3.0-pyhd8ed1ab_0.conda
   sha256: ce61f4f99401a4bd455b89909153b40b9c823276aefcbb06f2044618696009ca
   md5: 72e42d28960d875c7654614f8b50939a
@@ -2150,6 +2192,122 @@ packages:
   - pkg:pypi/h2?source=hash-mapping
   size: 53888
   timestamp: 1738578623567
+- pypi: https://files.pythonhosted.org/packages/32/f1/bb196ad1fa76a9ef10277dcc19aa3ff63a74e1d5fa0cdae2c0081a328f26/highcharts_core-1.10.3-py3-none-any.whl
+  name: highcharts-core
+  version: 1.10.3
+  sha256: fd1981ece27e4d1364e930a84deb08e67c9c4501a2a66915215f0873586befd3
+  requires_dist:
+  - esprima>=4.0.1
+  - requests>=2.32.0
+  - validator-collection>=1.5.0
+  - anthropic>=0.3.11 ; extra == 'ai'
+  - dill>=0.3.7 ; extra == 'ai'
+  - openai>=0.28.0 ; extra == 'ai'
+  - anthropic>=0.3.11 ; extra == 'dev'
+  - dill>=0.3.7 ; extra == 'dev'
+  - ipython>=8.10.0 ; extra == 'dev'
+  - openai>=0.28.0 ; extra == 'dev'
+  - orjson>=3.7.7 ; extra == 'dev'
+  - pandas>=1.3.3 ; extra == 'dev'
+  - pyspark>=3.3.0 ; extra == 'dev'
+  - pytest-cov>=3.0.0 ; extra == 'dev'
+  - pytest-xdist>=2.5.0 ; extra == 'dev'
+  - pytest>=7.0.2 ; extra == 'dev'
+  - python-dotenv>=1.0.0 ; extra == 'dev'
+  - pytz>=2022.1 ; extra == 'dev'
+  - sphinx-rtd-theme==1.2.0 ; extra == 'dev'
+  - sphinx-tabs==3.4.1 ; extra == 'dev'
+  - sphinx-toolbox>=3.6.0 ; extra == 'dev'
+  - sphinx==6.1.3 ; extra == 'dev'
+  - tox>=4.0.0 ; extra == 'dev'
+  - sphinx-rtd-theme==1.2.0 ; extra == 'docs'
+  - sphinx-tabs==3.4.1 ; extra == 'docs'
+  - sphinx-toolbox>=3.6.0 ; extra == 'docs'
+  - sphinx==6.1.3 ; extra == 'docs'
+  - anthropic>=0.3.11 ; extra == 'soft'
+  - dill>=0.3.7 ; extra == 'soft'
+  - ipython>=8.10.0 ; extra == 'soft'
+  - openai>=0.28.0 ; extra == 'soft'
+  - orjson>=3.7.7 ; extra == 'soft'
+  - pandas>=1.3.3 ; extra == 'soft'
+  - pyspark>=3.3.0 ; extra == 'soft'
+  requires_python: '>=3.10'
+- pypi: https://files.pythonhosted.org/packages/95/ad/22fbf6af17b89cbcf21d9a1f98c5510fa89504f253aeeea5201457200cd0/highcharts_gantt-1.7.0-py3-none-any.whl
+  name: highcharts-gantt
+  version: 1.7.0
+  sha256: 827bc77a22e2b556e6c4e577e6b98c21af390e969de033274234c73fe9c49ab5
+  requires_dist:
+  - esprima>=4.0.1
+  - highcharts-stock>=1.7.0
+  - requests>=2.31.0
+  - validator-collection>=1.5.0
+  - asana>=3.0.0 ; extra == 'dev'
+  - ipython>=8.10.0 ; extra == 'dev'
+  - jira>=3.4.0 ; extra == 'dev'
+  - monday>=1.3.0 ; extra == 'dev'
+  - orjson>=3.7.7 ; extra == 'dev'
+  - pandas>=1.3.3 ; extra == 'dev'
+  - pyspark>=3.3.0 ; extra == 'dev'
+  - pytest-cov>=3.0.0 ; extra == 'dev'
+  - pytest-xdist>=2.5.0 ; extra == 'dev'
+  - pytest>=7.0.2 ; extra == 'dev'
+  - python-dotenv>=1.0.0 ; extra == 'dev'
+  - pytz>=2022.1 ; extra == 'dev'
+  - sphinx-rtd-theme==1.2.0 ; extra == 'dev'
+  - sphinx-tabs==3.4.1 ; extra == 'dev'
+  - sphinx-toolbox==3.4.0 ; extra == 'dev'
+  - sphinx==6.1.3 ; extra == 'dev'
+  - tox>=4.0.0 ; extra == 'dev'
+  - sphinx-rtd-theme==1.2.0 ; extra == 'docs'
+  - sphinx-tabs==3.4.1 ; extra == 'docs'
+  - sphinx-toolbox==3.4.0 ; extra == 'docs'
+  - sphinx==6.1.3 ; extra == 'docs'
+  - asana>=3.0.0 ; extra == 'soft'
+  - ipython>=8.10.0 ; extra == 'soft'
+  - jira>=3.4.0 ; extra == 'soft'
+  - monday>=1.3.0 ; extra == 'soft'
+  - orjson>=3.7.7 ; extra == 'soft'
+  - pandas>=1.3.3 ; extra == 'soft'
+  - pyspark>=3.3.0 ; extra == 'soft'
+  requires_python: '>=3.10'
+- pypi: https://files.pythonhosted.org/packages/0f/a1/0831ee0c7688716a85ffc18cd2f57db74744fc81b227b7790f5a011a57d7/highcharts_stock-1.7.0-py3-none-any.whl
+  name: highcharts-stock
+  version: 1.7.0
+  sha256: 87b64d44a6735d1dc3cf0fab4677a245758d76abdebf0975195e31e167a53c78
+  requires_dist:
+  - esprima>=4.0.1
+  - highcharts-core>=1.7.0
+  - requests>=2.31.0
+  - validator-collection>=1.5.0
+  - anthropic>=0.3.11 ; extra == 'dev'
+  - dill>=0.3.7 ; extra == 'dev'
+  - ipython>=8.10.0 ; extra == 'dev'
+  - openai>=0.28.0 ; extra == 'dev'
+  - orjson>=3.7.7 ; extra == 'dev'
+  - pandas>=1.3.3 ; extra == 'dev'
+  - pyspark>=3.3.0 ; extra == 'dev'
+  - pytest-cov>=3.0.0 ; extra == 'dev'
+  - pytest-xdist>=2.5.0 ; extra == 'dev'
+  - pytest>=7.0.2 ; extra == 'dev'
+  - python-dotenv>=1.0.0 ; extra == 'dev'
+  - pytz>=2022.1 ; extra == 'dev'
+  - sphinx-rtd-theme==1.2.0 ; extra == 'dev'
+  - sphinx-tabs==3.4.1 ; extra == 'dev'
+  - sphinx-toolbox==3.4.0 ; extra == 'dev'
+  - sphinx==6.1.3 ; extra == 'dev'
+  - tox>=4.0.0 ; extra == 'dev'
+  - sphinx-rtd-theme==1.2.0 ; extra == 'docs'
+  - sphinx-tabs==3.4.1 ; extra == 'docs'
+  - sphinx-toolbox==3.4.0 ; extra == 'docs'
+  - sphinx==6.1.3 ; extra == 'docs'
+  - anthropic>=0.3.11 ; extra == 'soft'
+  - dill>=0.3.7 ; extra == 'soft'
+  - ipython>=8.10.0 ; extra == 'soft'
+  - openai>=0.28.0 ; extra == 'soft'
+  - orjson>=3.7.7 ; extra == 'soft'
+  - pandas>=1.3.3 ; extra == 'soft'
+  - pyspark>=3.3.0 ; extra == 'soft'
+  requires_python: '>=3.10'
 - conda: https://conda.anaconda.org/conda-forge/noarch/hpack-4.1.0-pyhd8ed1ab_0.conda
   sha256: 6ad78a180576c706aabeb5b4c8ceb97c0cb25f1e112d76495bff23e3779948ba
   md5: 0a802cb9888dd14eeefc611f05c40b6e
@@ -5088,6 +5246,22 @@ packages:
   - pkg:pypi/mistune?source=hash-mapping
   size: 72749
   timestamp: 1742402716323
+- conda: https://conda.anaconda.org/conda-forge/noarch/mizani-0.13.5-pyhd8ed1ab_0.conda
+  sha256: adac001d4fc2d098fd837fd6bb726dcbb663b87ffe3a639ae007b7350e7d7a04
+  md5: ecbce1717259a6631ca8d8c0673bef19
+  depends:
+  - numpy >=1.23.5
+  - pandas >=2.2.0
+  - python >=3.10
+  - python-dateutil
+  - scipy >=1.8.0
+  - tzdata
+  license: BSD-3-Clause
+  license_family: BSD
+  purls:
+  - pkg:pypi/mizani?source=hash-mapping
+  size: 587086
+  timestamp: 1746267265670
 - conda: https://conda.anaconda.org/conda-forge/win-64/mkl-2024.2.2-h66d3029_15.conda
   sha256: 20e52b0389586d0b914a49cd286c5ccc9c47949bed60ca6df004d1d295f2edbd
   md5: 302dff2807f2927b3e9e0d19d60121de
@@ -5856,6 +6030,22 @@ packages:
   - pkg:pypi/platformdirs?source=hash-mapping
   size: 23531
   timestamp: 1746710438805
+- conda: https://conda.anaconda.org/conda-forge/noarch/plotnine-0.14.6-pyhd8ed1ab_0.conda
+  sha256: 5efd7059dfa6e137c0e12509c0935e85cbd2171da0e473268a6149c020bee665
+  md5: b3dde7d5385bf7b833248c5ae5dbd177
+  depends:
+  - matplotlib-base >=3.8.0
+  - mizani >=0.13.0,<0.14.0
+  - numpy >=1.23.5
+  - pandas >=2.2.0
+  - python >=3.10
+  - scipy >=1.8.0,<1.16.0
+  - statsmodels >=0.14.0
+  license: MIT
+  purls:
+  - pkg:pypi/plotnine?source=hash-mapping
+  size: 5240654
+  timestamp: 1750867947208
 - pypi: https://files.pythonhosted.org/packages/54/20/4d324d65cc6d9205fabedc306948156824eb9f0ee1633355a8f7ec5c66bf/pluggy-1.6.0-py3-none-any.whl
   name: pluggy
   version: 1.6.0
@@ -7478,7 +7668,7 @@ packages:
 - pypi: .
   name: tassie-trees-research-plan
   version: 0.1.0
-  sha256: 187545901c21c6c2a2c6ca86ab11403ddd5e16174c896a95c4b2db86010cf375
+  sha256: e50a2d28552401b9c5c8d24ee7dec1a1e0e1272589336a2d98fd72d01265442d
   requires_dist:
   - geopandas>=1.0.1
   - rasterio>=1.4.3
@@ -7489,6 +7679,7 @@ packages:
   - shapely>=2.0.0
   - galah-python>=0.12.0,<0.13
   - jupyterlab-myst>=2.4.2,<3
+  - highcharts-gantt
   requires_python: '>=3.11'
   editable: true
 - conda: https://conda.anaconda.org/conda-forge/win-64/tbb-2021.13.0-h62715c5_1.conda
@@ -7926,6 +8117,25 @@ packages:
   - pkg:pypi/uvicorn?source=hash-mapping
   size: 49242
   timestamp: 1748779958668
+- pypi: https://files.pythonhosted.org/packages/4c/cb/051b87d913beb43f7890b16e421965a1550d791637629893a7448bb2b832/validator_collection-1.5.0-py2.py3-none-any.whl
+  name: validator-collection
+  version: 1.5.0
+  sha256: 56f6dc65d86c2e5b8f04f22acedd33af2c233edc1082fe4d24fd3996bd19d0fe
+  requires_dist:
+  - jsonschema
+  - regex ; python_full_version < '3'
+  - check-manifest ; extra == 'dev'
+  - sphinx ; extra == 'dev'
+  - sphinx-rtd-theme ; extra == 'dev'
+  - sphinx-tabs ; extra == 'dev'
+  - coverage ; extra == 'test'
+  - pytest ; extra == 'test'
+  - pytest-benchmark ; extra == 'test'
+  - pytest-cov ; extra == 'test'
+  - tox ; extra == 'test'
+  - codecov ; extra == 'test'
+  - pyfakefs ; extra == 'test'
+  requires_python: '>=2.7,!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,<4'
 - conda: https://conda.anaconda.org/conda-forge/win-64/vc-14.3-h41ae7f8_26.conda
   sha256: b388d88e04aa0257df4c1d28f8d85d985ad07c1e5645aa62335673c98704c4c6
   md5: 18b6bf6f878501547786f7bf8052a34d
