@@ -17,4 +17,4 @@ dependencies:
   - pip
   - pip:
       - jupyterlab_myst
-      - hycharts-gantt
+      - highcharts-gantt
