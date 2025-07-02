@@ -37,9 +37,9 @@ project:
   # description:
   # keywords: []
   toc:
+    - file: doc\index.md
     - title: Introduction
       children:
-        - file: doc\000_index.md
         - file: doc\011_background.md
         - file: doc\012_problem-statement.md
         - file: doc\013_aims-and-objectives.md
