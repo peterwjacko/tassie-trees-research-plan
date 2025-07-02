@@ -36,7 +36,27 @@ project:
   id: b1e3a6c7-b992-43bc-b5d5-6f437d30af13
   # description:
   # keywords: []
-  # To autogenerate a Table of Contents, run "myst init --write-toc"
+  toc:
+    - title: Introduction
+      children:
+        - file: doc\000_index.md
+        - file: doc\011_background.md
+        - file: doc\012_problem-statement.md
+        - file: doc\013_aims-and-objectives.md
+        - file: doc\014_study-locations.md
+    - title: Proposed methods and thesis structure
+      children:
+        - file: doc\210_chapter1_introduction.md
+        - file: doc\220_chapter2_paper1.md
+    - title: Appendices
+      children:
+        - file: doc\911_appendix-1_proposed-timeline.md
+    - title: Notebooks
+      children:
+        - file: notebooks\ala_occurances.ipynb
+        - file: notebooks\burn_scar.ipynb
+        - file: notebooks\project_timeline.ipynb
+    - file: README.md
 site:
   title: Peter Jackson - PhD Research Plan
   logo_text: PhD Research Plan
