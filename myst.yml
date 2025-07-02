@@ -13,7 +13,7 @@ project:
     jupyterbook: https://jupyterbook.org/en/stable/
     mystpy: https://myst-parser.readthedocs.io/en/latest/
   bibliography:
-    - zotero-library.bib
+    - doc/references.bib
   authors:
     - name: Peter Jackson
       orcid: 0009-0005-9630-3501
