@@ -37,25 +37,25 @@ project:
   # description:
   # keywords: []
   toc:
-    - file: doc\index.md
+    - file: doc/index.md
     - title: Introduction
       children:
-        - file: doc\011_background.md
-        - file: doc\012_problem-statement.md
-        - file: doc\013_aims-and-objectives.md
-        - file: doc\014_study-locations.md
+        - file: doc/011_background.md
+        - file: doc/012_problem-statement.md
+        - file: doc/013_aims-and-objectives.md
+        - file: doc/014_study-locations.md
     - title: Proposed methods and thesis structure
       children:
-        - file: doc\210_chapter1_introduction.md
-        - file: doc\220_chapter2_paper1.md
+        - file: doc/210_chapter1_introduction.md
+        - file: doc/220_chapter2_paper1.md
     - title: Appendices
       children:
-        - file: doc\911_appendix-1_proposed-timeline.md
+        - file: doc/911_appendix-1_proposed-timeline.md
     - title: Notebooks
       children:
-        - file: notebooks\ala_occurances.ipynb
-        - file: notebooks\burn_scar.ipynb
-        - file: notebooks\project_timeline.ipynb
+        - file: notebooks/ala_occurances.ipynb
+        - file: notebooks/burn_scar.ipynb
+        - file: notebooks/project_timeline.ipynb
     - file: README.md
 site:
   title: Peter Jackson - PhD Research Plan
