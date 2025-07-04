@@ -1,9 +1,17 @@
-# Proposed timeline
+---
+title: Project timeline
+options:
+    hide_outline: true
+---
 
-```mermaid
+
+```{mermaid}
+:class: col-page-right
+
+%%{init: {'displayMode':'compact','theme':'forest'}}%%
+
 gantt
     dateFormat  YYYY-MM-DD
-    title Proposed timeline
     axisFormat %Y-Q%q
     todayMarker off
 
@@ -14,8 +22,8 @@ gantt
     GRC Progress Reports                  :milestone, 2028-09-03, 0d
 
     section Planning
-    Research Plan Development             :active, 2025-03-01, 2025-06-20
-    Research Plan Draft Submission        :milestone, 2025-06-20, 0d
+    Research Plan Development             :active, 2025-03-01, 2026-03-03
+    Research Plan Draft Submission        :milestone, done, 2025-06-20, 0d
     Research Plan Submission              :milestone, 2026-03-03, 0d
     Preparation for Confirmation          :2025-12-01, 2026-03-03
     Confirmation of Candidature           :milestone, 2026-03-03, 0d
@@ -58,6 +66,9 @@ gantt
 
     section Thesis
     Literature review                     :2025-07-01, 2028-12-31
+    Thesis compilation                    :2028-09-01, 2029-02-28
+    Thesis abstract submission            :milestone, 2029-01-06, 0d
+    Thesis submission                     :milestone, 2029-03-03, 0d
     Thesis compilation                    :2028-09-01, 2029-02-28
     Thesis abstract submission            :milestone, 2029-01-06, 0d
     Thesis submission                     :milestone, 2029-03-03, 0d
