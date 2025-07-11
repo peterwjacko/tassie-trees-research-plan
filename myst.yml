@@ -2,7 +2,6 @@
 version: 1
 project:
   title: PhD Research Plan
-  #venue: PhD Thesis
   github: https://github.com/peterwjacko/tassie-trees-research-plan
   open_access: true
   license: CC-BY-4.0
@@ -13,7 +12,7 @@ project:
     jupyterbook: https://jupyterbook.org/en/stable/
     mystpy: https://myst-parser.readthedocs.io/en/latest/
   bibliography:
-    - doc/references.bib
+    - doc/bbt_references.bib
   authors:
     - name: Peter Jackson
       orcid: 0009-0005-9630-3501
@@ -37,29 +36,27 @@ project:
   # description:
   # keywords: []
   toc:
-    - file: doc/index.md
+    - file: landing-page.md
     - title: Introduction
       children:
         - file: doc/011_background.md
         - file: doc/012_problem-statement.md
         - file: doc/013_aims-and-objectives.md
         - file: doc/014_study-locations.md
-    - title: Proposed methods and thesis structure
+    - title: Proposed methods
       children:
-        - file: doc/210_chapter1_introduction.md
-        - file: doc/220_chapter2_paper1.md
-    - title: Appendices
-      children:
-        - file: doc/911_appendix-1_proposed-timeline.md
+        - file: doc/210_chapter2_paper1.md
+        - file: doc/220_chapter3_paper2.md
+        - file: doc/230_chapter4_paper3.md
+        - file: doc/240_chapter5_paper4.md
     - title: Notebooks
       children:
         - file: notebooks/ala_occurances.ipynb
         - file: notebooks/burn_scar.ipynb
-        - file: notebooks/project_timeline.ipynb
     - file: README.md
 site:
-  title: Peter Jackson - PhD Research Plan
-  logo_text: PhD Research Plan
+  title: Peter W. Jackson - PhD Research Plan
+  logo_text: Research Plan
   twitter: peterwjacko
   template: book-theme
   # options:
