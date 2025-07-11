@@ -160,7 +160,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/noarch/mistune-3.1.3-pyh29332c3_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/mizani-0.13.5-pyhd8ed1ab_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/munkres-1.1.4-pyhd8ed1ab_1.conda
-      - conda: https://conda.anaconda.org/conda-forge/noarch/mystmd-1.4.0-pyhe01879c_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/mystmd-1.5.1-pyhe01879c_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/narwhals-1.44.0-pyhe01879c_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/nbclient-0.10.2-pyhd8ed1ab_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/nbconvert-core-7.16.6-pyh29332c3_0.conda
@@ -437,7 +437,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/noarch/mistune-3.1.3-pyh29332c3_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/mizani-0.13.5-pyhd8ed1ab_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/munkres-1.1.4-pyh9f0ad1d_0.tar.bz2
-      - conda: https://conda.anaconda.org/conda-forge/noarch/mystmd-1.4.0-pyhe01879c_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/mystmd-1.5.1-pyhe01879c_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/narwhals-1.41.0-pyhe01879c_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/nbclient-0.10.2-pyhd8ed1ab_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/nbconvert-core-7.16.6-pyh29332c3_0.conda
@@ -712,7 +712,7 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/noarch/mizani-0.13.5-pyhd8ed1ab_0.conda
       - conda: https://conda.anaconda.org/conda-forge/win-64/mkl-2024.2.2-h66d3029_15.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/munkres-1.1.4-pyhd8ed1ab_1.conda
-      - conda: https://conda.anaconda.org/conda-forge/noarch/mystmd-1.4.0-pyhe01879c_0.conda
+      - conda: https://conda.anaconda.org/conda-forge/noarch/mystmd-1.5.1-pyhe01879c_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/narwhals-1.44.0-pyhe01879c_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/nbclient-0.10.2-pyhd8ed1ab_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/nbconvert-core-7.16.6-pyh29332c3_0.conda
@@ -5295,9 +5295,9 @@ packages:
   - pkg:pypi/munkres?source=compressed-mapping
   size: 15851
   timestamp: 1749895533014
-- conda: https://conda.anaconda.org/conda-forge/noarch/mystmd-1.4.0-pyhe01879c_0.conda
-  sha256: 65f4deba8288736d79699ebd78085f1a5e4afcab9bd02a0e16b1384a8ce58d96
-  md5: 76c34360acbddc13998d5374a5d7210d
+- conda: https://conda.anaconda.org/conda-forge/noarch/mystmd-1.5.1-pyhe01879c_0.conda
+  sha256: e41f786e21574dd21d98564fed210fb8b351de95254cd005d9d1fa1c88702fff
+  md5: f513ee75eee8143e300f42642292e447
   depends:
   - python >=3.9
   - nodejs >=18
@@ -5306,8 +5306,8 @@ packages:
   license_family: MIT
   purls:
   - pkg:pypi/mystmd?source=hash-mapping
-  size: 2163110
-  timestamp: 1749668555743
+  size: 2163865
+  timestamp: 1751692750216
 - conda: https://conda.anaconda.org/conda-forge/noarch/narwhals-1.41.0-pyhe01879c_0.conda
   sha256: 7e649844ad554d5c737aeacd679056c8928038d3969dcb098e62be137a1c4929
   md5: 580a340cc0f5eab2b18adb1b55e032e5
@@ -6262,7 +6262,8 @@ packages:
   - python
   license: BSD-3-Clause
   license_family: BSD
-  purls: []
+  purls:
+  - pkg:pypi/pycparser?source=hash-mapping
   size: 110100
   timestamp: 1733195786147
 - conda: https://conda.anaconda.org/conda-forge/osx-arm64/pycrdt-0.11.1-py313hdde674f_0.conda
