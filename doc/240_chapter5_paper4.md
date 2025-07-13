@@ -60,7 +60,7 @@ efforts [@possinghamLimitsUseThreatened2002].
 :::
 
 Regarding the most recent IUCN Red List assessments for our target taxa
-![](#target-taxa-iucn-cat). The habitat data used for the three conifers was generated
+[](#target-taxa-iucn-cat). The habitat data used for the three conifers was generated
 between 24 to 8 years prior to the assessment in 2012/13 and does not
 use future projections of habitat suitability. Additionally, the refer
 to the resilience of these taxa on account of their ability to resprout,
