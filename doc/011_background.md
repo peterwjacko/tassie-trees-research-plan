@@ -178,7 +178,7 @@ algorithm automatically discovers hierarchical features directly from
 data without manual feature engineering [@lecunDeepLearning2015].
 Convolutional neural networks (CNNs) revolutionised dense segmentation
 tasks through architectures such as fully convolutional networks
-[@longFullyConvolutionalNetworks2014] and U-Net
+[@longFullyConvolutionalNetworks2015] and U-Net
 [@ronnebergerUNetConvolutionalNetworks2015]. More recently, Vision
 Transformers (ViTs) have demonstrated superior performance compared to
 CNNs in image classification tasks but require much larger datasets to
@@ -249,7 +249,7 @@ classification tasks compared to unimodal-multi-source models
 While these approaches have demonstrated the value of integrating
 multi-source remote sensing data, the true potential of multimodality is
 in the ability to integrate symbolic or contextual information
-[@baltrušaitis2017multimodalmachinelearningsurvey]. This can be by
+[@baltrusaitisMultimodalMachineLearning2019]. This can be by
 integrating OpenStreetMap information [@hongMoreDiverseMeans2021], or
 semantic vegetation attributes and hierarchical taxonomy
 [@sumbulFinegrainedObjectRecognition2018]. @harmonImprovingRareTree2023 demonstrates that incorporating domain
