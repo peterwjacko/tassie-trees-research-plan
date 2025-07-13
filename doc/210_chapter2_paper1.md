@@ -26,7 +26,7 @@ hyperspectral data [@zhangThreedimensionalConvolutionalNeural2020].
 Likewise, studies using high resolution RGB-only datasets for similar
 task and targets have also achieved high accuracy with deep learning
 approaches [@egliCNNbasedTreeSpecies2020;
-garzon-lopezSpeciesClassificationTropical2020].
+@garzon-lopezSpeciesClassificationTropical2020].
 
 Despite strong evidence showing that deep learning is effective in
 species-level vegetation mapping tasks without access to rich spectral
