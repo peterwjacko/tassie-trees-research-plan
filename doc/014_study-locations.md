@@ -15,7 +15,7 @@ populations of the target taxa but lack detailed, contemporary mapping
 products. The proposal comprise seventeen sites to provide contingencies
 for adverse weather and access limitations.
 
-:::{figure} ./figures/proposed_study_sites_tasveg_ala_600dpi.png
+:::{figure} ./assets/proposed_study_sites_tasveg_ala_600dpi.png
 :label: proposed-study-sites
 :align: center
 
