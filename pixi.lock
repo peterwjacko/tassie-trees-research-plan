@@ -275,12 +275,8 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/linux-64/zstd-1.5.7-hb8e6e7a_2.conda
       - pypi: https://files.pythonhosted.org/packages/83/fb/954032f95ddefd56200be4d26d9dacb553628379fdb042b775bfd00a8a3e/bytesbufio-1.0.3-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/09/fe/f61e7129e9e689d9e40bbf8a36fb90f04eceb477f4617c02c6a18463e81f/configparser-7.2.0-py3-none-any.whl
-      - pypi: https://files.pythonhosted.org/packages/cc/a1/50fccd68a12bcfc27adfc9969c090286670a9109a0259f3f70943390b721/esprima-4.0.1.tar.gz
       - pypi: https://files.pythonhosted.org/packages/88/b2/26b14c52202d0dea690a655dbc08c8f0a533ca0101fbfd25e236ab748d46/galah_python-0.12.1-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/d7/a5/bbbc3b74a94fbdbd7915e7ad030f16539bfdc1362f7e9003b594f0537950/glob2-0.7.tar.gz
-      - pypi: https://files.pythonhosted.org/packages/32/f1/bb196ad1fa76a9ef10277dcc19aa3ff63a74e1d5fa0cdae2c0081a328f26/highcharts_core-1.10.3-py3-none-any.whl
-      - pypi: https://files.pythonhosted.org/packages/95/ad/22fbf6af17b89cbcf21d9a1f98c5510fa89504f253aeeea5201457200cd0/highcharts_gantt-1.7.0-py3-none-any.whl
-      - pypi: https://files.pythonhosted.org/packages/0f/a1/0831ee0c7688716a85ffc18cd2f57db74744fc81b227b7790f5a011a57d7/highcharts_stock-1.7.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/2c/e1/e6716421ea10d38022b952c159d5161ca1193197fb744506875fbb87ea7b/iniconfig-2.1.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/ac/7c/98ad14b3cf7a7987d3c6ef5fc83609458739f28a1a34a91a9bb1b12c5f8a/jupyterlab_myst-2.4.2-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/54/20/4d324d65cc6d9205fabedc306948156824eb9f0ee1633355a8f7ec5c66bf/pluggy-1.6.0-py3-none-any.whl
@@ -289,9 +285,8 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/46/1d/8c6017828045c2d510e2d1d480b563936be7755c97cff660afed947928b6/shutils-0.1.0.tar.gz
       - pypi: https://files.pythonhosted.org/packages/d0/30/dc54f88dd4a2b5dc8a0279bdd7270e735851848b762aeb1c1184ed1f6b14/tqdm-4.67.1-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/4e/3d/d44421e8d828af1399c1509c196db92e2a58f3764b01a0ee928d7025d1ca/unittest2py3k-0.5.1.tar.gz
-      - pypi: https://files.pythonhosted.org/packages/4c/cb/051b87d913beb43f7890b16e421965a1550d791637629893a7448bb2b832/validator_collection-1.5.0-py2.py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/d1/cd/ac639dba1ce48dc465e44dcd98a68d1c53743da7687345f2b494d1ac5ae7/zip_files-0.4.1-py3-none-any.whl
-      - pypi: .
+      - pypi: ./
       osx-arm64:
       - conda: https://conda.anaconda.org/conda-forge/noarch/adjusttext-1.3.0-pyhd8ed1ab_0.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/affine-2.4.0-pyhd8ed1ab_1.conda
@@ -554,12 +549,8 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/osx-arm64/zstd-1.5.7-h6491c7d_2.conda
       - pypi: https://files.pythonhosted.org/packages/83/fb/954032f95ddefd56200be4d26d9dacb553628379fdb042b775bfd00a8a3e/bytesbufio-1.0.3-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/09/fe/f61e7129e9e689d9e40bbf8a36fb90f04eceb477f4617c02c6a18463e81f/configparser-7.2.0-py3-none-any.whl
-      - pypi: https://files.pythonhosted.org/packages/cc/a1/50fccd68a12bcfc27adfc9969c090286670a9109a0259f3f70943390b721/esprima-4.0.1.tar.gz
       - pypi: https://files.pythonhosted.org/packages/88/b2/26b14c52202d0dea690a655dbc08c8f0a533ca0101fbfd25e236ab748d46/galah_python-0.12.1-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/d7/a5/bbbc3b74a94fbdbd7915e7ad030f16539bfdc1362f7e9003b594f0537950/glob2-0.7.tar.gz
-      - pypi: https://files.pythonhosted.org/packages/32/f1/bb196ad1fa76a9ef10277dcc19aa3ff63a74e1d5fa0cdae2c0081a328f26/highcharts_core-1.10.3-py3-none-any.whl
-      - pypi: https://files.pythonhosted.org/packages/95/ad/22fbf6af17b89cbcf21d9a1f98c5510fa89504f253aeeea5201457200cd0/highcharts_gantt-1.7.0-py3-none-any.whl
-      - pypi: https://files.pythonhosted.org/packages/0f/a1/0831ee0c7688716a85ffc18cd2f57db74744fc81b227b7790f5a011a57d7/highcharts_stock-1.7.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/2c/e1/e6716421ea10d38022b952c159d5161ca1193197fb744506875fbb87ea7b/iniconfig-2.1.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/ac/7c/98ad14b3cf7a7987d3c6ef5fc83609458739f28a1a34a91a9bb1b12c5f8a/jupyterlab_myst-2.4.2-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/54/20/4d324d65cc6d9205fabedc306948156824eb9f0ee1633355a8f7ec5c66bf/pluggy-1.6.0-py3-none-any.whl
@@ -568,9 +559,8 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/46/1d/8c6017828045c2d510e2d1d480b563936be7755c97cff660afed947928b6/shutils-0.1.0.tar.gz
       - pypi: https://files.pythonhosted.org/packages/d0/30/dc54f88dd4a2b5dc8a0279bdd7270e735851848b762aeb1c1184ed1f6b14/tqdm-4.67.1-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/4e/3d/d44421e8d828af1399c1509c196db92e2a58f3764b01a0ee928d7025d1ca/unittest2py3k-0.5.1.tar.gz
-      - pypi: https://files.pythonhosted.org/packages/4c/cb/051b87d913beb43f7890b16e421965a1550d791637629893a7448bb2b832/validator_collection-1.5.0-py2.py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/d1/cd/ac639dba1ce48dc465e44dcd98a68d1c53743da7687345f2b494d1ac5ae7/zip_files-0.4.1-py3-none-any.whl
-      - pypi: .
+      - pypi: ./
       win-64:
       - conda: https://conda.anaconda.org/conda-forge/win-64/_openmp_mutex-4.5-2_gnu.conda
       - conda: https://conda.anaconda.org/conda-forge/noarch/adjusttext-1.3.0-pyhd8ed1ab_0.conda
@@ -831,12 +821,8 @@ environments:
       - conda: https://conda.anaconda.org/conda-forge/win-64/zstd-1.5.7-hbeecb71_2.conda
       - pypi: https://files.pythonhosted.org/packages/83/fb/954032f95ddefd56200be4d26d9dacb553628379fdb042b775bfd00a8a3e/bytesbufio-1.0.3-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/09/fe/f61e7129e9e689d9e40bbf8a36fb90f04eceb477f4617c02c6a18463e81f/configparser-7.2.0-py3-none-any.whl
-      - pypi: https://files.pythonhosted.org/packages/cc/a1/50fccd68a12bcfc27adfc9969c090286670a9109a0259f3f70943390b721/esprima-4.0.1.tar.gz
       - pypi: https://files.pythonhosted.org/packages/88/b2/26b14c52202d0dea690a655dbc08c8f0a533ca0101fbfd25e236ab748d46/galah_python-0.12.1-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/d7/a5/bbbc3b74a94fbdbd7915e7ad030f16539bfdc1362f7e9003b594f0537950/glob2-0.7.tar.gz
-      - pypi: https://files.pythonhosted.org/packages/32/f1/bb196ad1fa76a9ef10277dcc19aa3ff63a74e1d5fa0cdae2c0081a328f26/highcharts_core-1.10.3-py3-none-any.whl
-      - pypi: https://files.pythonhosted.org/packages/95/ad/22fbf6af17b89cbcf21d9a1f98c5510fa89504f253aeeea5201457200cd0/highcharts_gantt-1.7.0-py3-none-any.whl
-      - pypi: https://files.pythonhosted.org/packages/0f/a1/0831ee0c7688716a85ffc18cd2f57db74744fc81b227b7790f5a011a57d7/highcharts_stock-1.7.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/2c/e1/e6716421ea10d38022b952c159d5161ca1193197fb744506875fbb87ea7b/iniconfig-2.1.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/ac/7c/98ad14b3cf7a7987d3c6ef5fc83609458739f28a1a34a91a9bb1b12c5f8a/jupyterlab_myst-2.4.2-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/54/20/4d324d65cc6d9205fabedc306948156824eb9f0ee1633355a8f7ec5c66bf/pluggy-1.6.0-py3-none-any.whl
@@ -845,9 +831,8 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/46/1d/8c6017828045c2d510e2d1d480b563936be7755c97cff660afed947928b6/shutils-0.1.0.tar.gz
       - pypi: https://files.pythonhosted.org/packages/d0/30/dc54f88dd4a2b5dc8a0279bdd7270e735851848b762aeb1c1184ed1f6b14/tqdm-4.67.1-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/4e/3d/d44421e8d828af1399c1509c196db92e2a58f3764b01a0ee928d7025d1ca/unittest2py3k-0.5.1.tar.gz
-      - pypi: https://files.pythonhosted.org/packages/4c/cb/051b87d913beb43f7890b16e421965a1550d791637629893a7448bb2b832/validator_collection-1.5.0-py2.py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/d1/cd/ac639dba1ce48dc465e44dcd98a68d1c53743da7687345f2b494d1ac5ae7/zip_files-0.4.1-py3-none-any.whl
-      - pypi: .
+      - pypi: ./
 packages:
 - conda: https://conda.anaconda.org/conda-forge/linux-64/_libgcc_mutex-0.1-conda_forge.tar.bz2
   sha256: fe51de6107f9edc7aa4f786a70f4a883943bc9d39b3bb7307c04c41410990726
@@ -1725,10 +1710,6 @@ packages:
   - pkg:pypi/docutils?source=hash-mapping
   size: 402700
   timestamp: 1733217860944
-- pypi: https://files.pythonhosted.org/packages/cc/a1/50fccd68a12bcfc27adfc9969c090286670a9109a0259f3f70943390b721/esprima-4.0.1.tar.gz
-  name: esprima
-  version: 4.0.1
-  sha256: 08db1a876d3c2910db9cfaeb83108193af5411fc3a3a66ebefacd390d21323ee
 - conda: https://conda.anaconda.org/conda-forge/noarch/exceptiongroup-1.3.0-pyhd8ed1ab_0.conda
   sha256: ce61f4f99401a4bd455b89909153b40b9c823276aefcbb06f2044618696009ca
   md5: 72e42d28960d875c7654614f8b50939a
@@ -2082,122 +2063,6 @@ packages:
   - pkg:pypi/h2?source=hash-mapping
   size: 53888
   timestamp: 1738578623567
-- pypi: https://files.pythonhosted.org/packages/32/f1/bb196ad1fa76a9ef10277dcc19aa3ff63a74e1d5fa0cdae2c0081a328f26/highcharts_core-1.10.3-py3-none-any.whl
-  name: highcharts-core
-  version: 1.10.3
-  sha256: fd1981ece27e4d1364e930a84deb08e67c9c4501a2a66915215f0873586befd3
-  requires_dist:
-  - esprima>=4.0.1
-  - requests>=2.32.0
-  - validator-collection>=1.5.0
-  - anthropic>=0.3.11 ; extra == 'ai'
-  - dill>=0.3.7 ; extra == 'ai'
-  - openai>=0.28.0 ; extra == 'ai'
-  - anthropic>=0.3.11 ; extra == 'dev'
-  - dill>=0.3.7 ; extra == 'dev'
-  - ipython>=8.10.0 ; extra == 'dev'
-  - openai>=0.28.0 ; extra == 'dev'
-  - orjson>=3.7.7 ; extra == 'dev'
-  - pandas>=1.3.3 ; extra == 'dev'
-  - pyspark>=3.3.0 ; extra == 'dev'
-  - pytest-cov>=3.0.0 ; extra == 'dev'
-  - pytest-xdist>=2.5.0 ; extra == 'dev'
-  - pytest>=7.0.2 ; extra == 'dev'
-  - python-dotenv>=1.0.0 ; extra == 'dev'
-  - pytz>=2022.1 ; extra == 'dev'
-  - sphinx-rtd-theme==1.2.0 ; extra == 'dev'
-  - sphinx-tabs==3.4.1 ; extra == 'dev'
-  - sphinx-toolbox>=3.6.0 ; extra == 'dev'
-  - sphinx==6.1.3 ; extra == 'dev'
-  - tox>=4.0.0 ; extra == 'dev'
-  - sphinx-rtd-theme==1.2.0 ; extra == 'docs'
-  - sphinx-tabs==3.4.1 ; extra == 'docs'
-  - sphinx-toolbox>=3.6.0 ; extra == 'docs'
-  - sphinx==6.1.3 ; extra == 'docs'
-  - anthropic>=0.3.11 ; extra == 'soft'
-  - dill>=0.3.7 ; extra == 'soft'
-  - ipython>=8.10.0 ; extra == 'soft'
-  - openai>=0.28.0 ; extra == 'soft'
-  - orjson>=3.7.7 ; extra == 'soft'
-  - pandas>=1.3.3 ; extra == 'soft'
-  - pyspark>=3.3.0 ; extra == 'soft'
-  requires_python: '>=3.10'
-- pypi: https://files.pythonhosted.org/packages/95/ad/22fbf6af17b89cbcf21d9a1f98c5510fa89504f253aeeea5201457200cd0/highcharts_gantt-1.7.0-py3-none-any.whl
-  name: highcharts-gantt
-  version: 1.7.0
-  sha256: 827bc77a22e2b556e6c4e577e6b98c21af390e969de033274234c73fe9c49ab5
-  requires_dist:
-  - esprima>=4.0.1
-  - highcharts-stock>=1.7.0
-  - requests>=2.31.0
-  - validator-collection>=1.5.0
-  - asana>=3.0.0 ; extra == 'dev'
-  - ipython>=8.10.0 ; extra == 'dev'
-  - jira>=3.4.0 ; extra == 'dev'
-  - monday>=1.3.0 ; extra == 'dev'
-  - orjson>=3.7.7 ; extra == 'dev'
-  - pandas>=1.3.3 ; extra == 'dev'
-  - pyspark>=3.3.0 ; extra == 'dev'
-  - pytest-cov>=3.0.0 ; extra == 'dev'
-  - pytest-xdist>=2.5.0 ; extra == 'dev'
-  - pytest>=7.0.2 ; extra == 'dev'
-  - python-dotenv>=1.0.0 ; extra == 'dev'
-  - pytz>=2022.1 ; extra == 'dev'
-  - sphinx-rtd-theme==1.2.0 ; extra == 'dev'
-  - sphinx-tabs==3.4.1 ; extra == 'dev'
-  - sphinx-toolbox==3.4.0 ; extra == 'dev'
-  - sphinx==6.1.3 ; extra == 'dev'
-  - tox>=4.0.0 ; extra == 'dev'
-  - sphinx-rtd-theme==1.2.0 ; extra == 'docs'
-  - sphinx-tabs==3.4.1 ; extra == 'docs'
-  - sphinx-toolbox==3.4.0 ; extra == 'docs'
-  - sphinx==6.1.3 ; extra == 'docs'
-  - asana>=3.0.0 ; extra == 'soft'
-  - ipython>=8.10.0 ; extra == 'soft'
-  - jira>=3.4.0 ; extra == 'soft'
-  - monday>=1.3.0 ; extra == 'soft'
-  - orjson>=3.7.7 ; extra == 'soft'
-  - pandas>=1.3.3 ; extra == 'soft'
-  - pyspark>=3.3.0 ; extra == 'soft'
-  requires_python: '>=3.10'
-- pypi: https://files.pythonhosted.org/packages/0f/a1/0831ee0c7688716a85ffc18cd2f57db74744fc81b227b7790f5a011a57d7/highcharts_stock-1.7.0-py3-none-any.whl
-  name: highcharts-stock
-  version: 1.7.0
-  sha256: 87b64d44a6735d1dc3cf0fab4677a245758d76abdebf0975195e31e167a53c78
-  requires_dist:
-  - esprima>=4.0.1
-  - highcharts-core>=1.7.0
-  - requests>=2.31.0
-  - validator-collection>=1.5.0
-  - anthropic>=0.3.11 ; extra == 'dev'
-  - dill>=0.3.7 ; extra == 'dev'
-  - ipython>=8.10.0 ; extra == 'dev'
-  - openai>=0.28.0 ; extra == 'dev'
-  - orjson>=3.7.7 ; extra == 'dev'
-  - pandas>=1.3.3 ; extra == 'dev'
-  - pyspark>=3.3.0 ; extra == 'dev'
-  - pytest-cov>=3.0.0 ; extra == 'dev'
-  - pytest-xdist>=2.5.0 ; extra == 'dev'
-  - pytest>=7.0.2 ; extra == 'dev'
-  - python-dotenv>=1.0.0 ; extra == 'dev'
-  - pytz>=2022.1 ; extra == 'dev'
-  - sphinx-rtd-theme==1.2.0 ; extra == 'dev'
-  - sphinx-tabs==3.4.1 ; extra == 'dev'
-  - sphinx-toolbox==3.4.0 ; extra == 'dev'
-  - sphinx==6.1.3 ; extra == 'dev'
-  - tox>=4.0.0 ; extra == 'dev'
-  - sphinx-rtd-theme==1.2.0 ; extra == 'docs'
-  - sphinx-tabs==3.4.1 ; extra == 'docs'
-  - sphinx-toolbox==3.4.0 ; extra == 'docs'
-  - sphinx==6.1.3 ; extra == 'docs'
-  - anthropic>=0.3.11 ; extra == 'soft'
-  - dill>=0.3.7 ; extra == 'soft'
-  - ipython>=8.10.0 ; extra == 'soft'
-  - openai>=0.28.0 ; extra == 'soft'
-  - orjson>=3.7.7 ; extra == 'soft'
-  - pandas>=1.3.3 ; extra == 'soft'
-  - pyspark>=3.3.0 ; extra == 'soft'
-  requires_python: '>=3.10'
 - conda: https://conda.anaconda.org/conda-forge/noarch/hpack-4.1.0-pyhd8ed1ab_0.conda
   sha256: 6ad78a180576c706aabeb5b4c8ceb97c0cb25f1e112d76495bff23e3779948ba
   md5: 0a802cb9888dd14eeefc611f05c40b6e
@@ -7390,10 +7255,10 @@ packages:
   - pkg:pypi/statsmodels?source=hash-mapping
   size: 11479386
   timestamp: 1751918049542
-- pypi: .
+- pypi: ./
   name: tassie-trees-research-plan
   version: 0.1.0
-  sha256: a942dc6e3c7250c9bf47f34f945ad9a62013ea4dcaf43db88af7541040b2876e
+  sha256: 10395d6fed1802e17c7dedc0889c8a20c26e2974fb07b25256ed51c7f2fcab44
   requires_dist:
   - geopandas>=1.0.1
   - rasterio>=1.4.3
@@ -7404,7 +7269,6 @@ packages:
   - shapely>=2.0.0
   - galah-python>=0.12.0,<0.13
   - jupyterlab-myst>=2.4.2,<3
-  - highcharts-gantt>=1.7.0,<2
   requires_python: '>=3.11'
   editable: true
 - conda: https://conda.anaconda.org/conda-forge/win-64/tbb-2021.13.0-h62715c5_1.conda
@@ -7779,25 +7643,6 @@ packages:
   - pkg:pypi/uvicorn?source=hash-mapping
   size: 50517
   timestamp: 1751201850068
-- pypi: https://files.pythonhosted.org/packages/4c/cb/051b87d913beb43f7890b16e421965a1550d791637629893a7448bb2b832/validator_collection-1.5.0-py2.py3-none-any.whl
-  name: validator-collection
-  version: 1.5.0
-  sha256: 56f6dc65d86c2e5b8f04f22acedd33af2c233edc1082fe4d24fd3996bd19d0fe
-  requires_dist:
-  - jsonschema
-  - regex ; python_full_version < '3'
-  - check-manifest ; extra == 'dev'
-  - sphinx ; extra == 'dev'
-  - sphinx-rtd-theme ; extra == 'dev'
-  - sphinx-tabs ; extra == 'dev'
-  - coverage ; extra == 'test'
-  - pytest ; extra == 'test'
-  - pytest-benchmark ; extra == 'test'
-  - pytest-cov ; extra == 'test'
-  - tox ; extra == 'test'
-  - codecov ; extra == 'test'
-  - pyfakefs ; extra == 'test'
-  requires_python: '>=2.7,!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,<4'
 - conda: https://conda.anaconda.org/conda-forge/win-64/vc-14.3-h41ae7f8_26.conda
   sha256: b388d88e04aa0257df4c1d28f8d85d985ad07c1e5645aa62335673c98704c4c6
   md5: 18b6bf6f878501547786f7bf8052a34d
