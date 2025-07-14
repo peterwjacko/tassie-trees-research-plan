@@ -15,6 +15,7 @@ dependencies:
   - adjusttext
   - plotnine
   - folium
+  - leafmap
   - pip
   - pip:
       - jupyterlab_myst
