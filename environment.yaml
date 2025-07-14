@@ -14,7 +14,7 @@ dependencies:
   - boto3
   - adjusttext
   - plotnine
+  - folium
   - pip
   - pip:
       - jupyterlab_myst
-      - highcharts-gantt
