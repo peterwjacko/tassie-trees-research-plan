@@ -9,7 +9,7 @@ numbering:
 Hyperspectral remote sensing has demonstrated potential in automated
 vegetation mapping applications
 [@govenderReviewHyperspectralRemote2009;
-zhongIdentificationTreeSpecies2022]. In addition to condition
+@zhongIdentificationTreeSpecies2022]. In addition to condition
 monitoring, the enhanced spectral depth is particularly valuable in
 discriminating plant species in complex forest canopies
 [@pereiramartins-netoTreeSpeciesClassification2023]. Despite the
@@ -41,7 +41,7 @@ Research comparing the performance of deep learning segmentation models
 trained on RGB imagery versus those informed by hyperspectral data is
 sparse, particularly in complex forest canopies. Furthermore, there is
 limited understanding of the underlying mechanisms driving performance
-differences between these approaches---specifically whether improved
+differences between these approaches. Specifically whether improved
 accuracy stems from the additional spectral information content itself,
 or from the complex spectral-spatial relationships that deep learning
 models can exploit within hyperspectral datasets.
