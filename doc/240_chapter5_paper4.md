@@ -158,11 +158,3 @@ methodology for translating local-scale vulnerability assessments into
 actionable management recommendations by incorporating operational
 constraints such as firefighting accessibility and protected area
 boundaries.
-Second, we integrate habitat connectivity analysis with multi-criteria
-vulnerability assessment to identify not only where species are most at
-risk, but also which populations serve as critical source habitats and
-dispersal corridors for long-term persistence. Third, we develop a
-methodology for translating local-scale vulnerability assessments into
-actionable management recommendations by incorporating operational
-constraints such as firefighting accessibility and protected area
-boundaries.
