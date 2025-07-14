@@ -9,3 +9,5 @@ _build
 # filesystem files
 .DS_Store
 Thumbs.db
+*.tif
+*.aux.xml
