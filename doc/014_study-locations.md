@@ -15,7 +15,7 @@ populations of the target taxa but lack detailed, contemporary mapping
 products. The proposal comprise seventeen sites to provide contingencies
 for adverse weather and access limitations.
 
-:::{figure} ./assets/proposed_study_sites_tasveg_ala_600dpi.png
+:::{figure} #ala-records-interactive
 :label: proposed-study-sites
 :align: center
 
@@ -34,7 +34,3 @@ Data acquisition is complete for these three southern Tarkine sites as
 of April 2025. Additionally, data acquisition for the Davey River site
 ([](#proposed-study-sites): Site 13) occurred in February 2023 using a sensor
 configuration consistent with this project.
-
-:::{figure} #ala-records-interactive
-:label: fig-ala-records-interactive
-:::
