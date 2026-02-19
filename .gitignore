@@ -13,3 +13,4 @@ Thumbs.db
 *.aux.xml
 
 data/
+outputs/
