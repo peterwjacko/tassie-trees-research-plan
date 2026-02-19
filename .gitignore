@@ -11,3 +11,5 @@ _build
 Thumbs.db
 *.tif
 *.aux.xml
+
+data/
