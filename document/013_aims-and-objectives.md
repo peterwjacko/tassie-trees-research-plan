@@ -12,16 +12,16 @@ using Tasmania's vulnerable vegetation communities as a case study.
 
 To achieve this aim, we will focus on the following objectives:
 
-1. Investigate the role of hyperspectral information for dense
-    prediction tasks of native vegetation target classes in complex
-    forest canopies by comparing the performance of deep neural network
-    architectures that capture the spatial-spectral relationships in the
-    data with architectures that only consider the spatial
-    relationships.
-2. Improve the scalability and accessibility of DNNs for vegetation
-    mapping by exploiting domain adaptation techniques such as knowledge
-    distillation to learn from high fidelity (spectral-spatial) datasets
-    and predict on lower fidelity datasets.
+1. Evaluate the performance and data-efficiency of semantic segmentation
+    architectures for mapping native Tasmanian canopy species in
+    high-resolution aerial imagery and assess the efficacy of
+    domain-specific transfer learning to overcome the limitations of
+    sparse training datasets in both CNN and ViT architectures.
+2. To evaluate the capacity of Vision Transformer and Vision Mamba
+    architectures to perform species-level semantic segmentation of
+    Tasmanian forest vegetation from airborne hyperspectral imagery, and
+    to characterise the spectral-spatial representations learned by each
+    architecture relative to a CNN baseline.
 3. Evaluate if, what, and how, environmental contextual information and
     ecological domain expertise improves the performance of DNNs to
     discriminate flora species in the absence of large training sets.

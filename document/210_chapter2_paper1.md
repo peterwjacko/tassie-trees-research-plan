@@ -4,127 +4,110 @@ numbering:
   enumerator: 2.1.%s
 ---
 
+*Evaluating deep learning architectures and domain-specific weights for mapping Tasmanian rainforest trees*
+
 ## Problem statement
 
-Hyperspectral remote sensing has demonstrated potential in automated
-vegetation mapping applications
-[@govenderReviewHyperspectralRemote2009;
-@zhongIdentificationTreeSpecies2022]. In addition to condition
-monitoring, the enhanced spectral depth is particularly valuable in
-discriminating plant species in complex forest canopies
-[@pereiramartins-netoTreeSpeciesClassification2023]. Despite the
-increasing accessibility of hyperspectral sensors, they are rarely
-deployed in real-world conservation scenarios due to their cost and
-complexity.
+DNNs applied to ultra-high spatial resolution imagery offer robust
+capabilities for fast and granular canopy mapping
+[@cavender-baresIntegratingRemoteSensing2022]. Convolutional Neural
+Networks (CNNs) efficiently extract multiscale features through
+inductive biases like spatial locality, and architectures such as U-Net
+have proven highly effective for tree crown segmentation in RGB imagery
+[@kattenbornConvolutionalNeuralNetworks2019;
+@kattenbornReviewConvolutionalNeural2021;
+@ronnebergerUNetConvolutionalNetworks2015]. However, these same
+inductive biases, spatial locality and hierarchical feature extraction,
+make CNNs favour texture cues over structural shape information and
+prone to shortcut learning
+[@kattenbornSpatiallyAutocorrelatedTraining2022]. In contrast, ViTs
+utilise global self-attention to dynamically model complex and
+long-range spatial relationships
+[@dosovitskiyImageWorth16x162020]. ViTs condition predictions on global
+context, whereas CNN predictions are constrained by the spatial extent
+of the receptive field. While ViTs may outperform CNNs in many
+benchmarks, they are also more "data-hungry" and compute heavy than
+CNNs. These characteristics present considerable limitations when
+working with the sparse, domain-specific datasets typical of specialised
+remote sensing tasks.
 
-In recent years, deep learning algorithms have emerged as powerful tools
-for computer vision tasks and offer several key advantages over
-traditional classification approaches in the context of vegetation
-mapping. DL algorithms have proven highly effective in semantic
-segmentation tasks targeting vegetation species using high resolution
-hyperspectral data [@zhangThreedimensionalConvolutionalNeural2020].
-Likewise, studies using high resolution RGB-only datasets for similar
-task and targets have also achieved high accuracy with deep learning
-approaches [@egliCNNbasedTreeSpecies2020;
-@garzon-lopezSpeciesClassificationTropical2020].
+Transfer learning offers a key strategy for improving model performance
+under data scarcity, whereby weights learned during training on a large
+source dataset are transferred to initialise a model for a target task.
+This may involve feature extraction, which involves freezing all
+pre-trained weights and training only a task-specific head. Or taking it
+a step further with fine-tuning, where the higher-level layers are
+selectively retrained to adapt representations to the target domain.
+These principles have motivated the development of domain-specific
+weights derived from remote sensing imagery, which are known to improve
+convergence and accuracy over general-purpose initialisations such as
+ImageNet. Critically, however, the datasets underpinning these remote
+sensing weights typically reflect broad land cover classes sampled from
+North America or Europe [@bastaniSatlasPretrainLargescaleDataset2022],
+and there is little research into how this impacts performance in the
+Australian context.
 
-Despite strong evidence showing that deep learning is effective in
-species-level vegetation mapping tasks without access to rich spectral
-information, there are limited studies comparing the two input feature
-sets [@nezamiTreeSpeciesClassification2020]. Studies comparing
-high-resolution RGB and hyperspectral datasets typically focus on
-assessing plant condition in agricultural scenarios, where the
-additional spectral depth significantly improves accuracy
-[@xuDeepLearningModel2025].
-
-Research comparing the performance of deep learning segmentation models
-trained on RGB imagery versus those informed by hyperspectral data is
-sparse, particularly in complex forest canopies. Furthermore, there is
-limited understanding of the underlying mechanisms driving performance
-differences between these approaches. Specifically whether improved
-accuracy stems from the additional spectral information content itself,
-or from the complex spectral-spatial relationships that deep learning
-models can exploit within hyperspectral datasets.
+Consequently, there is a critical need to systematically compare model
+architecture, pre-training strategy, and their interaction under
+conditions of data scarcity. Current literature lacks rigorous ablation
+studies that quantify the computational and data-efficiency trade-offs
+between localised (CNN) and global (ViT) feature extraction across
+varied training set sizes and weight initialisations. Establishing best
+practices requires a structured, factorial comparison of these
+architectures and initialisations to determine whether the superior
+contextual awareness of Transformers justifies their greater data
+requirements in sparse, domain-specific applications.
 
 ## Proposed method
 
-Airborne data collection will employ fixed-wing aircraft platforms to
-acquire co-registered optical and hyperspectral imagery across all study
-sites. Flight operations will target 500 metres above ground level to
-optimise the balance between spatial resolution and survey efficiency.
-This altitude specification will yield ground sampling distances of
-approximately 0.03 metres for RGB imagery and 0.40 metres for
-hyperspectral data.
+Tree crown segmentation will be performed on RGB aerial imagery
+(0.03 m GSD) with field-validated crown masks across three species:
+Huon pine, Myrtle beech, and Blackwood. A fixed chip size of 1,024 px
+will be applied across all treatments, yielding 11,264 samples from 44
+input tiles, with an 80/20 train-validation split sampled randomly from
+the pooled dataset. Data augmentation will be applied dynamically via
+Kornia, employing remote sensing-specific techniques that preserve
+spatial context while introducing realistic transformations to reduce
+overfitting including Flip-n-Slide
+[@abrahamsConciseTilingStrategy2024] and Sat-SlideMix
+[@hopkinsDataAugmentationApproaches2025].
 
-Optical imagery acquisition will utilise a PhaseOne PAS 150 frame camera
-system, with subsequent processing into three-band orthomosaics using
-photogrammetric workflows. Hyperspectral data collection will employ
-simultaneous deployment of Specim FX10 and AFX17 sensors (Specim Ltd,
-Finland). The FX10 is sensitive to near-infrared (NIR) wavelengths
-(400-1000 nm) across 224 spectral bands, while the AFX17 is sensitive to
-shortwave infrared (SWIR) wavelengths (900-1700 nm) across 224 bands.
+A systematic ablation study will compare four common segmentation
+architectures (U-Net, U-Net++, SegFormer, and Swin Transformer) across
+a factorial matrix of encoder backbones, weight initialisations
+(ImageNet, Satlas, and Clay LINZ), and optimisation strategies.
+CNN-based models will be optimised using Adam with momentum
+[@kingmaAdamMethodStochastic2014], while transformer-based
+architectures will use AdamW with weight decay regularisation
+[@loshchilovDecoupledWeightDecay2018]. For pre-trained initialisations,
+a two-stage fine-tuning strategy will be employed: an initial warm-up
+phase freezing the encoder while training the decoder and segmentation
+head, followed by end-to-end fine-tuning at a reduced learning rate.
 
-Co-registration between hyperspectral and RGB datasets will leverage the
-methodology developed by, Haynes et al.,
-[@haynesCoregistrationMultimodalUAS2025] which utilised the same
-sensor combination as we propose. The two datasets will be stacked into
-a multiband raster during preprocessing.
-
-Ground truth data will be established through manual delineation of
-individual tree crowns for target taxa using geographic information
-system software. Crown boundary annotation will be performed on the
-analysis-ready imagery by expert botanists. To ensure annotation
-accuracy and reduce interpretation bias, a randomly selected subset of
-desktop-derived annotations will undergo field validation through direct
-ground-based observation.
-
-The initial reference dataset will be augmented using established data
-augmentation techniques [@mumuniDataAugmentationComprehensive2022] to
-increase sample size and improve model robustness.
-
-The analysis will evaluate the contribution of spectral information to
-species-level semantic segmentation accuracy through systematic
-comparison of two-dimensional (2D) and three-dimensional (3D)
-implementations of established deep learning architectures. This
-comparison will isolate the value of spatial-spectral relationships in
-hyperspectral data while controlling for architectural differences.
-
-The analysis will concentrate on 2D and 3D variants of U-Net
-architectures [@ronnebergerUNetConvolutionalNetworks2015], which have
-demonstrated established efficacy in remote sensing applications,
-particularly for vegetation segmentation in high-resolution imagery
-[@floodUsingUnetConvolutional2019; schieferMappingForestTree2020].
-By constraining the comparison to a single architectural family, the
-contribution of spatial-spectral relationships can be isolated without
-confounding effects from different network designs.
-
-Model performance will be assessed using pixel-wise accuracy metrics
-appropriate for semantic segmentation tasks in remote sensing contexts
-[@maxwellAccuracyAssessmentConvolutional2021a]. Cross-validation
-strategies will ensure robust performance estimates and evaluate model
-transferability across different study sites.
-
-To understand the spectral and spatial features driving species
-discrimination, model interpretation will employ multiple explainability
-techniques. Gradient-weighted Class Activation Mapping (Grad-CAM) will
-identify spatial regions most influential for species classification
-decisions [@onishiExplainableIdentificationMapping2021]. Shapley
-Additive Explanations (SHAP) values will quantify the contribution of
-individual spectral bands to model predictions
-[@huangSurveySafetyTrustworthiness2020]. These interpretation methods
-will provide insights into whether spectral relationships are as
-critical as spatial relationships for accurate species identification.
+Model performance will be evaluated on full orthomosaics using a sliding
+window approach with Gaussian-weighted kernel aggregation to minimise
+edge artefacts. Assessment will be conducted using Overall Accuracy,
+mean Intersection over Union (mIoU), and mean F1-Score, alongside
+per-class metrics, enabling direct comparison of architectural and
+initialisation trade-offs across species
+[@wangRevisitingEvaluationMetrics2023a].
 
 ## Key innovation
 
-This research addresses three critical knowledge gaps in remote
-sensing-based vegetation mapping. First, it will determine which deep
-neural network architecture yields the most accurate segmentation of
-Tasmanian vegetation species using hyperspectral imagery. Second, it
-will quantify the spectral requirements for accurate vegetation
-segmentation, specifically evaluating the potential of RGB-only datasets
-as alternatives to hyperspectral data for operational mapping
-applications. Third, it will investigate whether spectral relationships
-are as important as spatial relationships for species identification,
-providing fundamental insights into the mechanisms underlying deep
-learning-based vegetation discrimination.
+This study presents one of the first systematic evaluations of CNN and
+Vision Transformer architectures for fine-grained, species-level tree
+crown segmentation in Tasmanian temperate rainforest. By framing the
+comparison as a controlled ablation across architectures, backbones, and
+weight initialisations, the study will produce transferable guidance on
+architecture selection under data-scarce, domain-specific conditions.
+
+A central innovation is the structured evaluation of geospatial
+foundation model weights, specifically Satlas and Clay LINZ, against
+conventional ImageNet initialisations in a high-resolution RGB
+segmentation context. While domain-adaptive pre-training has
+demonstrated value in broad land cover classification, its utility for
+fine-grained species delineation at centimetre resolution remains poorly
+characterised, particularly outside North American and European training
+distributions. This study directly interrogates that gap, providing the
+first assessment of these initialisations in an Australian ecological
+context.
