@@ -50,7 +50,7 @@ def _(Path):
     ]
     # Narrow window: acquisition_date is known exactly, so ±5 days is enough
     SEARCH_WINDOW_DAYS = 5
-    AOI_PATH = Path("../data/vector/study_areas.geojson")
+    AOI_PATH = Path(__file__).parent.parent / "data/vector/study_areas.geojson"
     OUTPUT_ROOT = Path("../outputs/satellite_imagery")
     OUTPUT_ROOT.mkdir(parents=True, exist_ok=True)
     return (
