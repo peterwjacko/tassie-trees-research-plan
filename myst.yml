@@ -12,7 +12,7 @@ project:
     jupyterbook: https://jupyterbook.org/en/stable/
     mystpy: https://myst-parser.readthedocs.io/en/latest/
   bibliography:
-    - doc/references.bib
+    - document/references.bib
   authors:
     - name: Peter Jackson
       orcid: 0009-0005-9630-3501
@@ -36,19 +36,19 @@ project:
   # description:
   # keywords: []
   toc:
-    - file: doc/landing-page.md
+    - file: document/landing-page.md
     - title: Introduction
       children:
-        - file: doc/011_background.md
-        - file: doc/012_problem-statement.md
-        - file: doc/013_aims-and-objectives.md
-        - file: doc/014_study-locations.md
+        - file: document/011_background.md
+        - file: document/012_problem-statement.md
+        - file: document/013_aims-and-objectives.md
+        - file: document/014_study-locations.md
     - title: Proposed methods
       children:
-        - file: doc/210_chapter2_paper1.md
-        - file: doc/220_chapter3_paper2.md
-        - file: doc/230_chapter4_paper3.md
-        - file: doc/240_chapter5_paper4.md
+        - file: document/210_chapter2_paper1.md
+        - file: document/220_chapter3_paper2.md
+        - file: document/230_chapter4_paper3.md
+        - file: document/240_chapter5_paper4.md
     - title: Notebooks
       children:
         - file: notebooks/ala_occurances.ipynb
