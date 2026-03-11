@@ -4,12 +4,11 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-PhD research plan for studying ancient Tasmanian tree species using remote sensing and geospatial analysis. The repo combines a published research document (MyST/Jupyter Book), analysis notebooks, and a reveal.js presentation, all managed with Pixi.
+PhD research plan for mapping Tasmanian tree species using remote sensing and deep learning. The repo comprises a website for the research plan built with (MyST/Jupyter Book) and published to GitHub Pages, associated analysis notebooks and scripts, and a reveal.js presentation (not yet implemented).
 
 Published at: <https://peterwjacko.github.io/tassie-trees-research-plan/>
 
-## Environment Setup
+## Do's and Do not's
 
-```bash
-pixi install          # preferred (uses pixi.lock for reproducibility)
-```
+- DO use `pixi add/remove` to add or remove dependencies
+- DO use `pixi shell` or `pixi run` to access the environment
