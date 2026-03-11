@@ -1,6 +1,6 @@
 import marimo
 
-__generated_with = "0.19.11"
+__generated_with = "0.20.4"
 app = marimo.App(width="medium")
 
 
@@ -31,7 +31,6 @@ def _():
         defaultdict,
         gpd,
         pd,
-        shape,
         timedelta,
         unary_union,
         urlopen,
@@ -54,7 +53,6 @@ def _(Path):
     AOI_PATH = Path("../data/vector/study_areas.geojson")
     OUTPUT_ROOT = Path("../outputs/satellite_imagery")
     OUTPUT_ROOT.mkdir(parents=True, exist_ok=True)
-
     return (
         AOI_PATH,
         DEA_STAC_URL,
@@ -73,8 +71,7 @@ def _(AOI_PATH, gpd, pd):
     ).dt.date
     study_areas = _raw.dropna(subset=["acquisition_date"]).copy()
     n_dropped = len(_raw) - len(study_areas)
-
-    return (n_dropped, study_areas)
+    return n_dropped, study_areas
 
 
 @app.cell
@@ -91,6 +88,7 @@ def _(mo, n_dropped, study_areas):
             ),
         ]
     )
+    return
 
 
 @app.cell
@@ -179,20 +177,11 @@ def _(
             ),
         ]
     ) if not search_summary.empty else mo.md("⚠️ No scenes found.")
-
-    return (scene_items, search_summary)
+    return (scene_items,)
 
 
 @app.cell
-def _(
-    OUTPUT_ROOT,
-    Path,
-    mo,
-    pd,
-    scene_items,
-    urlopen,
-    urlparse,
-):
+def _(OUTPUT_ROOT, Path, mo, pd, scene_items, urlopen, urlparse):
     _RASTER_TYPES = {
         "image/tiff",
         "image/geotiff",
@@ -272,7 +261,6 @@ def _(
             )
 
     download_manifest = pd.DataFrame(download_rows)
-
     return (download_manifest,)
 
 
@@ -293,6 +281,7 @@ def _(download_manifest, mo):
             ]
         )
     _out
+    return
 
 
 if __name__ == "__main__":
