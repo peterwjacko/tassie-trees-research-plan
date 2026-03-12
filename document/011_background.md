@@ -85,10 +85,10 @@ delineate vegetation boundaries
 [@departmentofnaturalresourcesandenvironmenttasmaniaTASVEG402020].
 Critically, the resources required by these approaches limit the
 frequency at which the mapping can be updated. For example, the most
-recent TASVEG dataset, v4.0 released in 2020 represents the first major
-update since 2013 and an average of five years between major versions
+recent TASVEG dataset, v5.0 released in 2025 represents the first major
+update since 2010 and an average of five years between major versions
 since 2004
-[@departmentofnaturalresourcesandenvironmenttasmaniaTASVEG402020].
+[@departmentofnaturalresourcesandenvironmenttasmaniaTASVEG502025].
 This temporal lag prevents detection of rapid changes in population
 extent or condition, particularly problematic when current distributions
 may represent ecological "echoes" of past conditions where recruitment
@@ -182,7 +182,7 @@ tasks through architectures such as fully convolutional networks
 [@ronnebergerUNetConvolutionalNetworks2015]. More recently, Vision
 Transformers (ViTs) have demonstrated superior performance compared to
 CNNs in image classification tasks but require much larger datasets to
-avoid overfitting [@kolesnikovImageWorth16x162021]. These learned
+avoid overfitting [@dosovitskiyImageWorth16x162020]. These learned
 representations consistently outperform engineered features by capturing
 complex spatial-spectral patterns that are difficult to encode manually,
 particularly for fine-grained species discrimination

@@ -1,0 +1,46 @@
+fid,scientificName,scientificNameAuthorship,taxonConceptID,rank,kingdom,phylum,order,family,genus,species,vernacularName,issues
+1,Lagarostrobos franklinii,(Hook.f.) Quinn,https://id.biodiversity.org.au/node/apni/2892878,species,Plantae,Charophyta,Pinales,Podocarpaceae,Lagarostrobos,Lagarostrobos franklinii,Huon Pine,noIssue
+2,Athrotaxis cupressoides,D.Don,https://id.biodiversity.org.au/node/apni/2909339,species,Plantae,Charophyta,Pinales,Cupressaceae,Athrotaxis,Athrotaxis cupressoides,Pencil Pine,noIssue
+3,Athrotaxis selaginoides,D.Don,https://id.biodiversity.org.au/taxon/apni/51271090,species,Plantae,Charophyta,Pinales,Cupressaceae,Athrotaxis,Athrotaxis selaginoides,King Billy Pine,noIssue
+4,Athrotaxis x laxifolia,Hook.,https://id.biodiversity.org.au/node/apni/7555184,species,Plantae,Charophyta,Pinales,Cupressaceae,Athrotaxis,Athrotaxis laxifolia,,noIssue
+5,Nothofagus gunnii,(Hook.f.) Oerst.,https://id.biodiversity.org.au/node/apni/7726150,species,Plantae,Charophyta,Fagales,Nothofagaceae,Nothofagus,Nothofagus gunnii,Tanglefoot,noIssue
+6,Nothofagus cunninghamii,(Hook.) Oerst.,https://id.biodiversity.org.au/node/apni/7725767,species,Plantae,Charophyta,Fagales,Nothofagaceae,Nothofagus,Nothofagus cunninghamii,Myrtle Beech,noIssue
+7,Diselma archeri,Hook.f.,https://id.biodiversity.org.au/node/apni/2898374,species,Plantae,Charophyta,Pinales,Cupressaceae,Diselma,Diselma archeri,Cheshunt Pine,noIssue
+8,Eucryphia lucida,(Labill.) Baill.,https://id.biodiversity.org.au/node/apni/2914825,species,Plantae,Charophyta,Oxalidales,Cunoniaceae,Eucryphia,Eucryphia lucida,Leatherwood,noIssue
+9,Atherosperma moschatum,Labill.,https://id.biodiversity.org.au/node/apni/2919316,species,Plantae,Charophyta,Laurales,Atherospermataceae,Atherosperma,Atherosperma moschatum,Black Sassafras,noIssue
+10,Atherosperma moschatum,Labill.,https://id.biodiversity.org.au/node/apni/2919316,species,Plantae,Charophyta,Laurales,Atherospermataceae,Atherosperma,Atherosperma moschatum,Black Sassafras,noIssue
+11,Phyllocladus aspleniifolius,(Labill.) Hook.f.,https://id.biodiversity.org.au/node/apni/2900306,species,Plantae,Charophyta,Pinales,Podocarpaceae,Phyllocladus,Phyllocladus aspleniifolius,Celery-top Pine,noIssue
+12,Acacia dealbata,Link,https://id.biodiversity.org.au/taxon/apni/51286863,species,Plantae,Charophyta,Fabales,Fabaceae,Acacia,Acacia dealbata,Silver Wattle,noIssue
+13,Acacia melanoxylon,R.Br.,https://id.biodiversity.org.au/node/apni/2903496,species,Plantae,Charophyta,Fabales,Fabaceae,Acacia,Acacia melanoxylon,Blackwood,noIssue
+14,Acacia mucronata,Willd. ex H.L.Wendl.,https://id.biodiversity.org.au/taxon/apni/51436614,species,Plantae,Charophyta,Fabales,Fabaceae,Acacia,Acacia mucronata,Narrow-leaf Wattle,noIssue
+15,Acacia riceana,Hensl.,https://id.biodiversity.org.au/node/apni/2917026,species,Plantae,Charophyta,Fabales,Fabaceae,Acacia,Acacia riceana,Rices Wattle,noIssue
+16,Leptospermum glaucescens,S.Schauer,https://id.biodiversity.org.au/taxon/apni/51440259,species,Plantae,Charophyta,Myrtales,Myrtaceae,Leptospermum,Leptospermum glaucescens,,noIssue
+17,Leptospermum lanigerum,(Sol. ex Aiton) Sm.,https://id.biodiversity.org.au/node/apni/2910654,species,Plantae,Charophyta,Myrtales,Myrtaceae,Leptospermum,Leptospermum lanigerum,Silky Tea-tree,noIssue
+18,Leptospermum nitidum,Hook.f.,https://id.biodiversity.org.au/node/apni/2911258,species,Plantae,Charophyta,Myrtales,Myrtaceae,Leptospermum,Leptospermum nitidum,Shining Tea Tree,noIssue
+19,Leptospermum riparium,D.I.Morris,https://id.biodiversity.org.au/node/apni/2920011,species,Plantae,Charophyta,Myrtales,Myrtaceae,Leptospermum,Leptospermum riparium,,noIssue
+20,Leptospermum rupestre,Hook.f.,https://id.biodiversity.org.au/node/apni/2897846,species,Plantae,Charophyta,Myrtales,Myrtaceae,Leptospermum,Leptospermum rupestre,,noIssue
+21,Leptospermum scoparium,J.R.Forst. & G.Forst.,https://id.biodiversity.org.au/node/apni/2896906,species,Plantae,Charophyta,Myrtales,Myrtaceae,Leptospermum,Leptospermum scoparium,Manuka,noIssue
+22,Eucalyptus amygdalina,Labill.,https://id.biodiversity.org.au/taxon/apni/51440457,species,Plantae,Charophyta,Myrtales,Myrtaceae,Eucalyptus,Eucalyptus amygdalina,Messmate,noIssue
+23,Eucalyptus archeri,Maiden & Blakely,https://id.biodiversity.org.au/node/apni/2900621,species,Plantae,Charophyta,Myrtales,Myrtaceae,Eucalyptus,Eucalyptus archeri,Alpine Cider Gum,noIssue
+24,Eucalyptus brookeriana,A.M.Gray,https://id.biodiversity.org.au/node/apni/2899895,species,Plantae,Charophyta,Myrtales,Myrtaceae,Eucalyptus,Eucalyptus brookeriana,Brooker's Gum,noIssue
+25,Eucalyptus coccifera,Hook.f.,https://id.biodiversity.org.au/taxon/apni/51440486,species,Plantae,Charophyta,Myrtales,Myrtaceae,Eucalyptus,Eucalyptus coccifera,Tasmanian Snow Gum,noIssue
+26,Eucalyptus cordata,Labill.,https://id.biodiversity.org.au/node/apni/2906446,species,Plantae,Charophyta,Myrtales,Myrtaceae,Eucalyptus,Eucalyptus cordata,Heart-leaved Silver Gum,noIssue
+27,Eucalyptus dalrympleana,Maiden,https://id.biodiversity.org.au/node/apni/2912408,species,Plantae,Charophyta,Myrtales,Myrtaceae,Eucalyptus,Eucalyptus dalrympleana,Mountain Gum,noIssue
+28,Eucalyptus delegatensis,R.T.Baker,https://id.biodiversity.org.au/node/apni/2915692,species,Plantae,Charophyta,Myrtales,Myrtaceae,Eucalyptus,Eucalyptus delegatensis,Woollybutt,noIssue
+29,Eucalyptus globulus,Labill.,https://id.biodiversity.org.au/taxon/apni/51440555,species,Plantae,Charophyta,Myrtales,Myrtaceae,Eucalyptus,Eucalyptus globulus,Tasmanian Blue Gum,noIssue
+30,Eucalyptus gunnii,Hook.f.,https://id.biodiversity.org.au/taxon/apni/51440569,species,Plantae,Charophyta,Myrtales,Myrtaceae,Eucalyptus,Eucalyptus gunnii,Cider Gum,noIssue
+31,Eucalyptus johnstonii,Maiden,https://id.biodiversity.org.au/node/apni/2891717,species,Plantae,Charophyta,Myrtales,Myrtaceae,Eucalyptus,Eucalyptus johnstonii,Brown Gum,noIssue
+32,Eucalyptus nitida,Hook.f.,https://id.biodiversity.org.au/node/apni/2904726,species,Plantae,Charophyta,Myrtales,Myrtaceae,Eucalyptus,Eucalyptus nitida,Smithton Peppermint,noIssue
+33,Eucalyptus obliqua,L'Hér.,https://id.biodiversity.org.au/node/apni/5308808,species,Plantae,Charophyta,Myrtales,Myrtaceae,Eucalyptus,Eucalyptus obliqua,Messmate Stringybark,noIssue
+34,Eucalyptus ovata,Labill.,https://id.biodiversity.org.au/taxon/apni/51782151,species,Plantae,Charophyta,Myrtales,Myrtaceae,Eucalyptus,Eucalyptus ovata,Swamp Gum,noIssue
+35,Eucalyptus pauciflora,Sieber ex Spreng.,https://id.biodiversity.org.au/node/apni/2897845,species,Plantae,Charophyta,Myrtales,Myrtaceae,Eucalyptus,Eucalyptus pauciflora,White Sally,noIssue
+36,Eucalyptus pulchella,Desf.,https://id.biodiversity.org.au/node/apni/2916232,species,Plantae,Charophyta,Myrtales,Myrtaceae,Eucalyptus,Eucalyptus pulchella,Narrow-leaved Peppermint,noIssue
+37,Eucalyptus radiata,Sieber ex DC.,https://id.biodiversity.org.au/taxon/apni/51439897,species,Plantae,Charophyta,Myrtales,Myrtaceae,Eucalyptus,Eucalyptus radiata,Narrow-leaf Peppermint,noIssue
+38,Eucalyptus rodwayi,R.T.Baker & H.G.Sm.,https://id.biodiversity.org.au/taxon/apni/51439918,species,Plantae,Charophyta,Myrtales,Myrtaceae,Eucalyptus,Eucalyptus rodwayi,Swamp Peppermint,noIssue
+39,Eucalyptus rubida,H.Deane & Maiden,https://id.biodiversity.org.au/taxon/apni/51782218,species,Plantae,Charophyta,Myrtales,Myrtaceae,Eucalyptus,Eucalyptus rubida,Candlebark,noIssue
+40,Eucalyptus subcrenulata,Maiden & Blakely,https://id.biodiversity.org.au/node/apni/2909390,species,Plantae,Charophyta,Myrtales,Myrtaceae,Eucalyptus,Eucalyptus subcrenulata,Tasmanian Alpine Yellow Gum,noIssue
+41,Eucalyptus delegatensis subsp. tasmaniensis,Boland,https://id.biodiversity.org.au/node/apni/2920097,subspecies,Plantae,Charophyta,Myrtales,Myrtaceae,Eucalyptus,Eucalyptus delegatensis,Gum-topped Stringybark,noIssue
+42,Eucalyptus tenuiramis,Miq.,https://id.biodiversity.org.au/node/apni/2894971,species,Plantae,Charophyta,Myrtales,Myrtaceae,Eucalyptus,Eucalyptus tenuiramis,Silver Peppermint,noIssue
+43,Eucalyptus urnigera,Hook.f.,https://id.biodiversity.org.au/node/apni/2920549,species,Plantae,Charophyta,Myrtales,Myrtaceae,Eucalyptus,Eucalyptus urnigera,Urn Gum,noIssue
+44,Eucalyptus vernicosa,Hook.f.,https://id.biodiversity.org.au/node/apni/2904566,species,Plantae,Charophyta,Myrtales,Myrtaceae,Eucalyptus,Eucalyptus vernicosa,Varnished Gum,noIssue
+45,Eucalyptus viminalis,Labill.,https://id.biodiversity.org.au/taxon/apni/51290421,species,Plantae,Charophyta,Myrtales,Myrtaceae,Eucalyptus,Eucalyptus viminalis,Ribbon Gum,noIssue
